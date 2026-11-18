@@ -1,0 +1,288 @@
+# ════════════════════════════════════════════════════════════════
+# GTA VI — THE ULTIMATE GUIDE · WORKFLOW MASTER
+# Unique reference for the whole build. Updated after every state.
+# ════════════════════════════════════════════════════════════════
+project:
+  name: "GTA VI — The Ultimate Guide"
+  slogan: "Leonida Awaits. Are You Ready?"
+  root: "/home/user/gta6-ultimate-guide"
+  language: "fr (principal) + en (secondary)"
+  release_date: "2026-11-19"           # sortie officielle PS5 / Xbox Series X|S
+  pc_release: "non annoncé (Q1 2027 rumeur rapportée oct. 2026)"
+  author: "Arena.ai Agent — Autonomous Build"
+  legal: "Fan guide non officiel — GTA VI © Rockstar Games / Take-Two Interactive"
+
+constraints:
+  images: "JPG uniquement · hyperréaliste/cinématographique · max 10 JPG par réponse"
+  audio:  "MP3 uniquement · max 10 MP3 par réponse (synthèse vocale/ambiances — pas de musique licenciée)"
+  forbidden: ["ZIP", "PDF", "PNG/WebP/AVIF pour images générées"]
+  fact_integrity:
+    - "Jeu prévu le 2026-11-19; l'embargo presse a été levé le 2026-11-18 : les informations observées en copie de test doivent être attribuées à la presse, et non présentées comme texte ou guide officiel Rockstar."
+    - "Chaque fait doit être étiqueté : [CONFIRMÉ] (source officielle) · [FUITE] (leaks) · [COMMUNAUTÉ] · [ESTIMATION]."
+    - "Aucune donnée inventée présentée comme officielle. Les prix/éditions viennent de Rockstar."
+
+states:
+  S0:
+    name: INIT
+    status: done
+    actions:
+      - Prompt analysé, infos de sortie vérifiées (19/11/2026, PS5 & Xbox Series X|S)
+      - Arborescence complète créée
+      - package.json, index.html racine (placeholder), robots.txt, sitemap.xml (squelette), manifest.json
+    next: S1
+
+  S1:
+    name: RESEARCH
+    status: done
+    actions:
+      - Recherches web FR+EN (presse, Rockstar, wikis, Reddit, GitHub, YouTube via articles)
+      - research_data.json compilé (30+ sources datées, niveaux de confiance)
+      - Faits clés: sortie 19/11, 99 Metacritic, 6★ wanted, Justin/Lucia confirmés, Online=2027 (non confirmé)
+    next: S2
+
+  S2:
+    name: DESIGN_SYSTEM
+    status: done
+    actions:
+      - design_system.css (tokens Vice City, néons, scanlines, tags de confiance éditoriale) ✓
+      - components.css (navbar blur, recherche, cartes 3D, stat bars, audio player flottant, back-to-top anneau, ticker) ✓
+      - animations.css + responsive.css ✓
+      - JS : utils.js, components.js, animations.js, search.js, main.js (loading screen + curseur viseur) ✓
+      - 10 images JPG héros/personnages ✓ (JPG uniquement, haute qualité)
+      - 10 audios MP3 ORIGINAUX synthétisés (numpy+lameenc, 192 kbps) : ambiances Vice City/nature, 2 thèmes dark synthwave, SFX UI — aucun extrait licencié ✓
+    next: S3
+
+  S3:
+    name: BUILD_CORE_PAGES
+    status: done
+    actions:
+      - index.html complet : hero plein écran Vice City + particules d'or canvas + compte à rebours live (passe en 'DISPONIBLE MAINTENANT' après le 19/11 00:00)
+      - Ticker actu réelle (Metacritic 99, déblocage NZ, 212 Go, online 2027)
+      - Fiche technique + 6 compteurs animés (99 Metacritic, 6 régions, ×2, 170 espèces, ~80h, 8 nominations)
+      - Sections : personnages, teaser carte 6 régions, stratégies day-one (recherche réelle), hub 12 sections, trailer officiel (Launch Trailer 8u_lV1LQr1Q)
+      - Navbar + footer communs, composants flottants (audio, back-top, cookies)
+      - Serveur local :8080 — assets vérifiés HTTP 200
+    next: S4
+
+  S4:
+    name: BUILD_CONTENT_PAGES
+    status: done
+    batch_size: 3                      # pages par tour, puis demander CONTINUER
+    completed_batches:
+      - batch: 1
+        pages: [pages/histoire/index.html, pages/histoire/synopsis.html, pages/histoire/missions.html]
+        notes: "3 pages FR créées; 3 JPG héros originaux; synopsis adossé au texte Rockstar; liste missions créditée presse avec divergence de comptage 91/93 explicitée. HTTP 200 et JS syntax check OK."
+      - batch: 2
+        pages: [pages/personnages/jason.html, pages/personnages/lucia.html, pages/personnages/secondaires.html]
+        notes: "3 pages FR créées; 3 JPG originaux (2 portraits 2:3, 1 visuel de groupe 16:9); biographies recoupées sur Only in Leonida; nomination Manni L. Perez vérifiée dans la page officielle TGA Best Performance (qui ne précise pas le personnage) et attribution à Lucia explicitement médiatique; switch characters sourcé entretien IGN/Rob Nelson; Reddit/GTAForums/YouTube/GitHub étiquetés comme communautaires. Tests HTTP 200, alt images présents, XML/JSON valides et JS syntax checks OK."
+      - batch: 3
+        pages: [pages/carte/index.html, pages/carte/vice-city.html, pages/carte/leonida-keys.html]
+        notes: "3 pages FR; 3 JPG cinématiques 16:9; six régions officielles, détails des repères Vice City; distinctions CONFIRMÉ/OBSERVÉ/COMMUNAUTÉ/FUITE; leak social du poster 12/11 signalé sans republier l'image; carte Rockstar prévue en téléchargement gratuit le 19/11 selon annonce de lancement; atlas GitHub v0.8.2/3431 community records sourcé; QA HTTP 200, alt assets, JSON/sitemap valide, JS syntax OK."
+      - batch: 4
+        pages: [pages/carte/grassrivers.html, pages/carte/port-gellhorn.html, pages/carte/ambrosia.html]
+        notes: "3 pages FR créées avec 3 JPG cinématiques; index carte et navigation mobile reliés aux nouvelles fiches; descriptions officielles séparées des captures promotionnelles, de la presse et des reconstructions de fans; Grassrivers (mangroves/alligators/airboats), Port Gellhorn (côte en déclin, Starlet Motel, Delights avec attribution prudente), Ambrosia (Allied Crystal et biker gang sans nom inventé); recherche GitHub/YouTube/Reddit/forums/X enregistrée; sitemap, recherche et ledger mis à jour; QA final: HTTP 200 sur hub, 3 pages et 3 JPG (1672×941), JSON/XML parse OK, search.js syntax OK, alt/SEO et références locales vérifiés."
+      - batch: 5
+        pages: [pages/carte/mount-kalaga.html, pages/armes/index.html, pages/armes/pistolets.html]
+        notes: "3 pages FR; 3 nouveaux JPG 1672×941. Mount Kalaga établi depuis la description officielle; chasse/pêche/outdoor contextualisés par presse et critiques datées. Arsenal/pistolets bâtis sur les noms Rockstar (ES9, K17, Morgan), étiquettes d'interface (Moreland 850), captures officielles et observations de reviews publiées le 18/11; aucune tier list/stat inventée; screenshots X allégués review-backend explicitement classés FUITE et exclus comme preuve. Index de carte, CSS armory, recherche, sitemap et ledger mis à jour; QA final HTTP 200, JSON/XML, JS, références relatives, alt/SEO valides."
+      - batch: 6
+        pages: [pages/armes/fusils.html, pages/armes/explosifs.html, pages/armes/melee.html]
+        notes: "3 guides français intégrés au hub armes, navigation de recherche et sitemap. Duke 556 et lance-grenades cadrés comme identifications/observations presse des médias Rockstar, sans inventaire ou statistiques prétendument officiels. Conseils pratiques attribués aux reviews du 18/11; mêlée précise l’avis critique divergent; discussions Reddit/GTAForums/YouTube/GitHub/X étiquetées communautaires ou non vérifiées. 2 JPG cinématiques générés pour fusils et mêlée; page explosifs réutilise l’image éditoriale armurerie existante après deux échecs de génération dédiés. QA final : HTTP 200 sur les trois pages via :8080; liens/assets locaux valides, images alt présents, JSON/XML valides, search.js syntaxe OK, métadonnées SEO et JPG 1672×941 vérifiés. La page explosifs réutilise le JPG éditorial existant après échec de génération dédiée. Batch 6 terminé."
+      - batch: 7
+        pages: [pages/vehicules/index.html, pages/vehicules/voitures.html, pages/vehicules/motos.html]
+        notes: "3 pages FR véhicules avec 3 nouveaux JPG cinématiques 1672×941. Sources d’éditions Rockstar et Launch Gallery séparées des observations des tests GameSpot, IGN, TheSixthAxis, Shacknews et Forbes. Les conseils sont attribués aux reviews; avis moto contrastés explicités; identifications Reddit/GTAForums/YouTube/GitHub/X classées communautaires/secondaires. Hub, recherche et sitemap raccordés; QA final HTTP 200 sur les trois pages, liens/assets locaux et alt valides, JSON/XML et search.js validés, JPG confirmés 1672×941. Lot 7 terminé."
+      - batch: 8
+        pages: [pages/vehicules/bateaux.html, pages/vehicules/avions.html, pages/vehicules/helicopteres.html]
+        notes: "3 fiches FR sur bateaux, avions et hélicoptères; sources Rockstar, reviews (IGN, Creative Bloq, Kotaku, NME), Reddit, GTAForums, YouTube, GitHub et X séparées par niveau de preuve. 3 JPG cinématiques immersifs 1672×941 générés pour la réponse. Hub véhicules, navigation mobile, recherche et sitemap raccordés. Conseils attribués aux reviewers, sans roster/stat inventés. QA final : HTTP 200 sur les trois nouvelles fiches; liens locaux/alt/SEO valides; JSON, XML et JS valides; trois JPG confirmés JPEG 1672×941. Lot 8 terminé."
+      - batch: 9
+        pages: [pages/gameplay/index.html, pages/gameplay/mecaniques.html, pages/gameplay/police.html]
+        notes: "3 guides français Gameplay, Mécaniques et Police/Heat. Recherche du 18/11: footage officiel Rockstar, tests Press Start, NPR, RPGamer, TrueAchievements, GamingBoulevard (interviews Rockstar), Reddit, YouTube, GitHub et réseaux sociaux; UI et conseils de source secondaire restent attribués/qualifiés. 3 JPG photoréalistes cinématiques générés et vérifiés JPEG 1672×941. Navigation de recherche, sitemap et ledger ajoutés. QA final : HTTP 200 sur les trois pages; liens/assets locaux, alt, SEO et JSON-LD valides; JSON/XML, search.js syntax OK; entrées uniques. Lot 9 terminé."
+      - batch: 10
+        pages: [pages/collectibles/index.html, pages/guide/astuces.html, pages/guide/100-pour-cent.html]
+        notes: >-
+          Guides français basés sur les reviews de lancement Digital Spy et Polygon; observations de collecte et scans explicitement attribuées, sans inventer total, pins ou images d’objet. Capture JPG Digital Spy/Rockstar d’un SeaHawk ajoutée avec crédit à la fiche nautique. Sitemap, recherche, ledger et liens vers cartes communautaires actualisés. QA : liens locaux et alt valides, pages HTTP 200, JPG presse 1920×1080; JS, JSON, XML valides; unicité 44/44.
+      - batch: 11
+        pages: [pages/news/index.html, pages/online/index.html, pages/soundtrack/index.html, pages/editions/index.html, pages/quiz/index.html, pages/guide/cheats.html]
+        notes: >-
+          Six cibles de navigation auparavant manquantes créées : News, statut Online, musique, éditions, quiz interactif accessible de 8 questions et page de cheats. Rockstar re-vérifié le 18/11 : six aperçus radio, album de 34 titres, score Justice (30 pistes; 11 décembre), expérience solo, préchargement et bonus d’édition. Au lot 12, les guides de triche sont actualisés à 61 codes rapportés après l’histoire, avec conditions et désactivation des sauvegardes/trophées selon GameSpot/PowerPyx. Un prix PS Store régional est daté plutôt que présenté comme universel. PR GitHub communautaire/non officiel; Reddit/YouTube n’ont pas apporté de guide d’objets corroboré. Sitemap, ledger et tests de liens réalisés.
+      - batch: 12
+        pages: [pages/gameplay/economie.html, pages/gameplay/combat.html, pages/gameplay/conduite.html]
+        notes: >-
+          Trois guides spécialisés fondés sur les conseils et reviews retail de GameSpot, TheSixthAxis et Forbes. Économie : niveaux de sécurité, brouilleur de billets teints au chapitre 3, codes de coffre aléatoires, receleurs et risque des sacs. Combat : Focus, réglages, couverture, silencieux, gestion d’armes. Conduite : Waink, alarmes/trackers, enregistrement, classes de véhicules et transports. La vidéo YouTube de conseils pré-lancement est classée piste secondaire seulement. Trois illustrations cinématiques uniques générées en JPG 1672×941, indiquées comme artwork IA et non comme captures de jeu. Hub gameplay, recherche, sitemap et ledger raccordés; page 100 % et cheats actualisées selon PowerPyx/GameSpot avec divergences et incertitudes notées. QA final : liens du site sans cible locale manquante, nouvelles pages HTTP 200, JS de recherche et du quiz, JSON/XML/YAML valides; audit images 48/48 JPEG locales uniques.
+      - batch: 13
+        pages: [pages/guide/trophees.html, pages/histoire/fins.html, pages/secrets/easter-eggs.html, pages/guide/astuces.html, pages/collectibles/index.html, pages/news/index.html]
+        notes: >-
+          Lot 13 QA/intégration : les trois pages Trophées, Fins et Easter eggs étaient déjà présentes et leurs entrées sitemap/recherche sont vérifiées. Enrichissement des astuces par guides VGC, GameSpot et Kotaku, avec attribution explicite; intégration des seuils/cartes PowerPyx en distinguant données tierces et fiche locale encore incomplète; correction de la lecture du lancement roulant via support Rockstar + PlayStation. Nouvelle illustration éditoriale haute qualité en JPG uniquement, non présentée comme capture. Research ledger et mots-clés recherche mis à jour. QA finale réussie : liens/assets locaux, alt, HTML parsé, sitemap XML (44 URL), JSON, YAML, JS recherche; 48 images JPEG locales uniques.
+      - batch: 14
+        pages: [pages/guide/100-pour-cent.html, pages/quiz/index.html, pages/guide/astuces.html, pages/news/index.html, index.html]
+        notes: >-
+          Implémentations locales terminées : suivi 100% dans localStorage (quotas PowerPyx explicitement tiers, tâches libres, export JSON, reset), quiz étendu à 30 questions (sources par réponse, timer, meilleur score local). Astuces mises à jour sur les marqueurs sablier et le journal de missions d’après PowerPyx; News ajoute le dépannage PS5 officiel, tout en distinguant les rapports de version firmware, Reddit et GTAForums. Les retours de changement de région Xbox restent anecdotiques et ne sont pas donnés en procédure. Nouvelles recherches YouTube = streams de lancement uniquement, aucune mécanique établie à partir d’eux; GitHub PR cartographique décrit ses propres critères et reste communautaire. Carte filtrable et base armes/véhicules restent au backlog S5. QA : 30 questions, JS des fonctionnalités parsé, pages HTTP 200, JSON/XML/YAML et recherche valides; 48 images JPG uniques, aucune image/audio généré pour ce lot.
+      - batch: 15
+        pages: [pages/guide/index.html, pages/guide/debutants.html, pages/online/modes.html]
+        notes: >-
+          Création du hub de guides, d’un guide premières heures sans spoilers d’intrigue et d’une fiche modes/Online. Recherche du 18/11 sur VGC, Kotaku, TechRadar, TheSixthAxis, Rockstar Newswire, YouTube et Reddit; conseils précis (cache sous le plancher, carte intérieure, Dolores, mécanicien, Focus, coffre/WAiNK) étiquetés comme observations de presse. GTA VI décrit comme solo par Rockstar; aucune date ou fonction Online n’est inventée. Recherche, navigation homepage, cross-links et sitemap raccordés. Aucun nouvel asset image/audio généré; 53 JPG locaux uniques conservés. QA réussie : 47 pages HTTP 200, sitemap 47 URL, recherche 47/47 avec cibles valides, liens et fragments internes OK, JSON/YAML/XML/JS valides.
+    pages:
+      - [histoire/index.html, histoire/synopsis.html, histoire/missions.html]
+      - [personnages/jason.html, personnages/lucia.html, personnages/secondaires.html]
+      - [carte/index.html, carte/vice-city.html, carte/leonida-keys.html]
+      - [carte/grassrivers.html, carte/port-gellhorn.html, carte/ambrosia.html]
+      - [carte/mount-kalaga.html, armes/index.html, armes/pistolets.html]
+      - [armes/fusils.html, armes/explosifs.html, armes/melee.html]
+      - [vehicules/index.html, vehicules/voitures.html, vehicules/motos.html]
+      - [vehicules/bateaux.html, vehicules/avions.html, vehicules/helicopteres.html]
+      - [gameplay/index.html, gameplay/mecaniques.html, gameplay/police.html]
+      - [gameplay/economie.html, gameplay/combat.html, gameplay/conduite.html]
+      - [guide/index.html, guide/debutants.html, guide/astuces.html]
+      - [guide/cheats.html, guide/trophees.html, guide/100-pour-cent.html]
+      - [online/index.html, online/modes.html, online/economie-online.html]
+      - [collectibles/index.html, collectibles/localisation.html, secrets/index.html]
+      - [secrets/easter-eggs.html, secrets/glitches.html, editions/index.html]
+      - [soundtrack/index.html, news/index.html, quiz/index.html]
+
+  S5:
+    name: INTERACTIVE_FEATURES
+    status: done
+    actions:
+      - "Checklist 100% ajoutée : tracker navigateur local, quotas tiers attribués, tâches libres, export JSON et reset."
+      - "Quiz étendu à 30 questions sourcées, chronomètre, meilleur score local et lien de preuve par réponse."
+      - "Astuces et News actualisées par recherche lancement : missions à sablier (PowerPyx), dépannage PS5 officiel, témoignages Reddit/GTAForums et PR GitHub étiquetés selon preuve."
+      - "À faire : carte Leaflet.js et base armes/véhicules filtrable; tests responsive/accessibilité complets."
+    next: S6
+
+  S6:
+    name: QA_AND_POLISH
+    status: in_progress
+    actions:
+      - "Static audit script added; links, fragments, image alts, search index, sitemap and JSON/XML/JS are being checked. Cross-device browser review, keyboard testing and legal-contact completion remain."
+      - Responsive 320→2560px, Lighthouse-like audit manuel, contraste WCAG 2.1 AA
+      - Alt SEO, ARIA, clavier, liens internes vérifiés, sitemap.xml complet
+    next: S7
+
+  S7:
+    name: FINAL_DELIVERY
+    status: in_progress
+    actions:
+      - README.md et configs statiques GitHub Pages / Netlify / Vercel ajoutés; scripts audit et configuration origin ajoutés. GitHub Pages est le fournisseur choisi; le workflow récupère automatiquement l’URL. Le déploiement est bloqué tant que l’audit ne passe pas, car les pages légales attendent encore l’identité et le contact publics réels de l’éditeur. Les visuels sourcés ont tous été retirés; les 53 images référencées sont des JPG générés.
+      - vercel.json, netlify.toml, .github/workflows/pages.yml
+      - Arborescence finale + récapitulatif
+      - Rappel: télécharger le workspace via /download-workspace
+
+image_budget:
+  per_turn: 10
+  planned_total: "~60-80 JPG générés (les 10 héros + thèmes clés); le reste réutilisé entre pages"
+audio_budget:
+  per_turn: 10
+  planned_total: "10 MP3 (ambiances + UI)"
+
+handoff_protocol: "Entre chaque état S1..S7, demander CONTINUER. Le reste du temps: autonomie totale."
+
+
+visual_audit:
+  updated: "2026-11-18"
+  status: "in_progress · audit des liens, images et scripts réussi; tous les visuels sourcés ont été remplacés par des JPG générés; publication reste bloquée par les mentions légales de l’éditeur"
+  audit_results:
+    html_pages: 54
+    local_jpg_referenced_unique: 53
+    remote_hypebeast_comparison_thumbnails_unique: 0
+    mp3_assets: 10
+    image_alt_missing: 0
+    broken_local_targets_or_fragments: 0
+    image_files_unused_after_audit: 0
+    audio_files_exposed_in_player: 10
+    pages_with_audio_player: 31
+    sitemap_urls: 54
+  actions:
+    - "Global image QA passes: 53 local `<img src>` references are unique; all 53 local JPEGs are referenced exactly once and have alt text."
+    - "Audit found five orphan editorial JPGs; each is now used once on the relevant region, missions or vehicle hub, with explicit illustration/non-canonical captions."
+    - "Removed Hypebeast-hosted third-party thumbnails from the live car page; retained the editor source link, attribution and model names, reducing external asset requests and rights dependency."
+    - "All 10 original MP3s are now available as user-triggered playlist items; four previously unused UI SFX added, panel list scrolls on smaller screens. No autoplay."
+    - "Map buttons elevated on the interactive-map and collectibles hubs; regional rollout status clarified for the New Zealand-first launch; fan pins remain provisional. Rockstar's printable map release is date-specific, not described as an interactive product."
+    - "Added `assets/images/README.md` and `assets/audio/README.md` provenance/usage manifests."
+    - "Validation: 54 HTML pages have title/description/H1; 0 missing image alt, broken local links/fragments, duplicate IDs or duplicate local image paths; sitemap has 54 matching URLs; JSON/XML/YAML/JS validation passes after the latest content batch."
+    - "Local canonicals and sitemap retain the reserved placeholder until publish; GitHub Pages CI reads `configure-pages` base_url and rewrites canonical, Open Graph, sitemap and robots before auditing. This local placeholder does not require a manually supplied URL in the repository."
+    - "Prior content backlog closed: online economy status, three sourced collectible locations, secrets index, Easter egg first discovery, and glitches/bugs pages added; no exact pins or exploits were fabricated."
+    - "GitHub Pages is the chosen host; the workflow derives its public URL automatically. All 53 image assets are generated JPEGs and all sourced image files have been removed. Remaining release blocker: owner-provided publisher identity/contact and final legal review; finish keyboard/accessibility browser QA before the owner pushes the workflow. GitHub hosting company/address have been populated from GitHub’s official documentation. A bespoke first-party map/catalog is intentionally deferred; community maps remain linked and attributed."
+  sources: [https://www.rockstargames.com/VI/media/screenshots, https://sixintelhq.com/map, https://map-6.com/en, https://www.playstation.com/en-nz/support/games/gta-vi-support/, https://hypebeast.com/2026/11/grand-theft-auto-vi-gta6-real-in-game-cars]
+
+
+launch_update_and_publication_prep:
+  updated: "2026-11-18"
+  changes:
+    - "News/guide pages updated for staged local-midnight launch, PS5 official troubleshooting and version-specific firmware reporting kept secondary/speculative as appropriate."
+    - "Added six Kotaku launch tips with explicit review attribution; no claim that player advice is official."
+    - "Added first reported retail easter egg (high radio tower nest/egg) with spoiler concealment, attributed Gamer Social Club + Kotaku liveblog; no third-party images copied."
+    - "Added four backlog pages: collectibles/localisation.html, online/economie-online.html, secrets/index.html, secrets/glitches.html. Wired search, sitemap and navigation."
+    - "Removed dynamic Metacritic AggregateRating JSON-LD count; current 99/147 PS5 critic snapshot is source-linked and dated."
+    - "Removed external Google Fonts request, changed trailer to user-activated youtube-nocookie embed, removed third-party Hypebeast images while retaining source/credit link."
+    - "Added README, prepublication audit, origin configurator, GitHub Pages workflow, Netlify/Vercel headers and relative PWA paths."
+  still_blocked:
+    - "Local canonical/domain placeholder remains for the clean checkout; GitHub Actions rewrites it from the actual GitHub Pages base_url before the audit. No repository name is needed for automatic CI publishing."
+    - "GitHub Pages is the selected host; verified GitHub Inc. hosting entity/address are entered from official GitHub documentation. The real publisher identity/contact remain owner-provided and legal templates intentionally block CI until completed."
+    - "Full visual and keyboard/accessibility pass in real browsers/devices remains to be performed."
+
+
+continuation_2026_11_18:
+  github_pages: "Chosen by owner; CI configures the canonical URL from the GitHub Pages base_url output, audits, and deploys from main. README updated with the Settings → Pages → GitHub Actions step."
+  live_research: "Refreshed official Rockstar support and PlayStation GTA VI troubleshooting; captured Metacritic snapshot (99/147 PS5; 99/14 Xbox; no user score), Kotaku launch review/tips, GameSpot launch tips, Reddit launch-day bug thread, YouTube launch/review videos and GitHub community atlas. Reddit posts remain unverified anecdotes; no new exploit is endorsed."
+  generated_images: "The three remaining sourced images were replaced with generated JPEG editorial illustrations and deleted. All 53 local raster assets are JPG/JPEG and generated; no PNG/SVG image assets are present. No new images were generated in the latest continuation because the library already met the constraints."
+  pending: ["Owner to provide real legal publisher identity and public contact; verify statutory disclosure needs", "Complete keyboard/accessibility browser QA", "Owner to enable GitHub Pages workflow and review deployment after legal audit passes"]
+  latest_qa:
+    html_pages: 54
+    sitemap_urls: 54
+    local_jpeg_assets: 53
+    generated_jpeg_assets: 53
+    remaining_non_generated: 0
+    current_local_audit: "3 local blocking errors: two legal pages need the owner’s real identity/contact; production origin is a local placeholder. In GitHub Pages CI, configure-pages replaces the origin, so the remaining deployment blocker is the two legal pages. Relative OG image URLs are made absolute by CI."
+    checks: "JS, JSON, XML, YAML, JSON-LD, image alt, duplicate IDs, local targets and link rel validation pass. Simulated GitHub Pages origin conversion and repeat origin changes pass."
+    preview: "Existing local static preview returned HTTP 200 for home, sitemap, legal pages, tips, bugs page and generated JPEG on port 8081."
+
+
+latest_continuation_2026_11_18:
+  updated: "2026-11-18 Europe/Paris"
+  image_status: "53/53 local image assets are generated JPEG/JPG; no PNG/SVG raster image files; all old sourced assets removed; alt text and image references audited."
+  research_added: "GameSpot launch review; Kotaku spoiler-free launch strategies; Kotaku summary of Digital Foundry performance tests; current Metacritic values remain volatile; official PlayStation troubleshooting separated from anecdotal Reddit fixes."
+  legal_hosting: "GitHub Pages hosting entity/address populated from GitHub official privacy docs; support contact links to official GitHub support; owner identity and public contact remain blank by design."
+  qa: "54 HTML files, 53 image assets, 0 missing local references; JS checks pass; static image audit validates JPEG signatures and that every image asset is referenced. Two legal placeholders block GitHub Actions. Local audit additionally flags reserved canonical origin, which GitHub Pages CI replaces automatically."
+  blockers: ["Owner must provide real publisher identity/contact for public legal notice and privacy controller", "Complete keyboard/accessibility review in a real browser", "Owner publishes by pushing the repo and enabling GitHub Pages Actions after the legal audit passes"]
+
+
+launch_watch_continuation_2026_11_18:
+  updated: "2026-11-18 Europe/Paris"
+  gameplay_research: "Added Can I Play That accessibility overview with clear caveat that its author had no review copy and findings may be incomplete; advice tells players to verify in-game options. Added safe spoiler-avoidance tips for YouTube/Reddit/social recommendations and X community source."
+  player_reports: "Updated current Reddit megathread examples: PS5 power-offs, black/loading screens, input/map issue, Series S exercise input, cutscene/audio sync and pop-in. All remain individual unverified reports. No third-party workaround is endorsed; discourage opening consoles or deleting saves, refer repeated shutdowns to platform repairs."
+  research_channels: "Fresh scan included press, accessibility reporting, Reddit, YouTube, GitHub release v0.8.2, X/social and official PlayStation support. Atlas remains community-maintained; no coordinates promoted to official."
+  qa_after_updates: "Final local audit: 54 pages, 53 generated JPEGs, zero missing local targets or image alts, JS/JSON/YAML checks pass, 208 buttons and all controls/links pass accessible-name smoke checks. Simulated the GitHub Pages origin rewrite in a temporary copy: 0 warnings and exactly 2 errors, both legal identity/contact placeholders. Manual cross-browser/contrast/keyboard device QA remains. No deployment or commit performed."
+
+publisher_details_update_2026_11_18:
+  supplied_by_owner:
+    publisher: "CIM"
+    legal_form: "Association loi 1901"
+    public_address: "49 avenue d’Italie, 75013 Paris"
+    public_contact: "gta6guide@gmail.com"
+    publication_director: "Peter Slogan"
+    data_controller: "Peter Slogan (owner confirmed via selection)"
+  legal_pages: "Owner-supplied details are entered in mentions-legales.html and confidentialite.html; no legal placeholders remain. Owner should verify accuracy and applicable disclosure obligations before public launch."
+  latest_audit: "Local audit reports one expected blocker/warnings because the checkout retains a reserved canonical-origin placeholder and relative OG image paths. Simulated the GitHub Pages origin rewrite on a temporary copy using https://owner.github.io/gta6-ultimate-guide: production audit passes with 0 errors and 0 warnings. JS, JSON, YAML, and local-link checks pass. Manual cross-browser/contrast/keyboard review remains. No deployment or commit performed."
+
+final_prepublication_research_2026_11_18:
+  updated: "2026-11-18 Europe/Paris"
+  new_findings:
+    - "PlayStation Support US officially posted on X that a PS5 system software update is required before playing GTA VI. The post does not state a firmware number; official troubleshooting says to install the latest system software."
+    - "PlayStation's official status page was live-checked and displayed all services operational. Axios reported a temporary PSN incident earlier on Nov 18 and a green status at around 14:30 ET; Sony gave no cause and no confirmed relationship to GTA VI or the firmware update. Status is time-sensitive."
+    - "Fresh review of Rockstar's Nov 3 preload announcement confirms up to 212 GB by device and the official free printable poster/map is scheduled for Nov 19; avoid treating fan maps as official cartography."
+    - "GitHub Leonida Atlas v0.8.2 is a community-maintained map/catalogue, not an official Rockstar map; the release notes mention keyboard-focus handling and 3,431 community records."
+    - "Reddit and social search results did not establish a reproducible general fix or a confirmed root cause for launch incidents. Preserve all user posts as anecdotal. YouTube creator setup guides remain secondary; verify every setting in-game."
+  site_changes:
+    - "Added a news card for official PS5 update guidance and time-bounded PSN incident/status, with live status and official troubleshooting links; explicitly rejects unconfirmed causal claims."
+    - "Updated research_data.json with source-tiered network status notes and cautions against inferred offline behavior or speculative fixes."
+  release_qa:
+    pages: 54
+    generated_image_assets: "53/53 JPEG/JPG, each unique/present; no PNG/SVG raster files"
+    broken_local_refs: 0
+    missing_alt: 0
+    blank_links_without_noopener: 0
+    unnamed_links_or_buttons: 0
+    javascript_json_yaml: "Pass"
+    clean_local_origin_audit: "1 expected placeholder-origin error and 27 relative OG warnings; the Pages workflow configures these at build."
+    simulated_github_pages_build: "Temporary copy configured with a sample Pages origin; production audit: 0 errors, 0 warnings."
+    manual_review: "Visual cross-browser, real-device contrast and keyboard/screen-reader testing remain owner-side recommended checks; not performed by this static audit."
+    publication: "No commit, push, or deployment performed. Owner retains publication responsibility."

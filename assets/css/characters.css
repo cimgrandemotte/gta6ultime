@@ -1,0 +1,26 @@
+/* Character profiles — cinematic portrait banners and verified bio cards */
+.character-banner{position:relative;min-height:clamp(560px,72vw,760px);padding:calc(var(--nav-h) + 2.5rem) max(4vw,calc((100vw - 1180px)/2)) 3rem;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(300px,.8fr);align-items:center;gap:1.5rem;overflow:hidden;background:radial-gradient(ellipse at 78% 38%,rgba(0,212,255,.16),transparent 34%),radial-gradient(ellipse at 8% 80%,rgba(255,45,120,.12),transparent 35%),#090910}
+.character-banner.lucia{background:radial-gradient(ellipse at 77% 40%,rgba(255,45,120,.2),transparent 36%),radial-gradient(ellipse at 8% 80%,rgba(255,215,0,.09),transparent 33%),#090910}
+.character-banner:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(7,7,12,.1),transparent 65%,rgba(7,7,12,.25));z-index:0}
+.character-copy,.character-visual{position:relative;z-index:1}
+.character-copy{max-width:650px}
+.character-copy h1{font:900 clamp(3.4rem,8vw,7rem)/.86 var(--font-display);letter-spacing:.01em;text-transform:uppercase;margin:.75rem 0 1.1rem;text-shadow:0 10px 40px #000}
+.character-copy .lead{max-width:620px;font-size:clamp(1rem,2vw,1.2rem);line-height:1.75;color:#e5e5ed}
+.character-visual{align-self:stretch;display:flex;align-items:end;justify-content:center;min-height:460px}
+.character-visual img{height:min(650px,72vh);width:min(100%,475px);object-fit:cover;object-position:top center;border-radius:180px 180px 24px 24px;border:1px solid rgba(255,255,255,.14);box-shadow:0 30px 100px rgba(0,0,0,.56),0 0 50px rgba(0,212,255,.1);mask-image:linear-gradient(180deg,#000 72%,transparent 100%)}
+.character-banner.lucia .character-visual img{box-shadow:0 30px 100px rgba(0,0,0,.56),0 0 50px rgba(255,45,120,.14)}
+.character-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem;margin:1.3rem 0}
+.character-fact{padding:.75rem .9rem;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.035)}
+.character-fact small{display:block;font:700 .59rem var(--font-mono);letter-spacing:.13em;text-transform:uppercase;color:var(--text-3);margin-bottom:.25rem}
+.character-fact strong{font:700 .92rem var(--font-head);color:#fff}
+.character-quote{font:italic 1.08rem/1.55 var(--font-head);color:#fff;border-left:2px solid var(--secondary);padding:.3rem 0 .3rem 1rem;margin:1.25rem 0}
+.character-banner.lucia .character-quote{border-color:var(--primary)}
+.cast-feature{grid-column:span 6;display:grid;grid-template-columns:115px 1fr;gap:1rem;align-items:start}
+.cast-feature .cast-number{font:800 2rem/.9 var(--font-display);color:var(--secondary)}
+.cast-feature p{color:var(--text-2);line-height:1.72;margin:.35rem 0}
+.cast-cluster{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;align-items:start}
+.cast-cluster img{width:100%;height:100%;min-height:300px;object-fit:cover;border-radius:var(--radius);border:1px solid var(--line)}
+.cast-cluster .story-note{grid-column:1/-1}
+.actor-callout{border:1px solid rgba(255,215,0,.35);background:linear-gradient(120deg,rgba(255,215,0,.08),rgba(255,255,255,.025));border-radius:var(--radius);padding:1.15rem 1.3rem;color:var(--text-2);line-height:1.7}
+.actor-callout strong{color:var(--accent)}
+@media(max-width:780px){.character-banner{grid-template-columns:1fr;padding:calc(var(--nav-h) + 1.7rem) 5% 2rem;min-height:auto}.character-visual{grid-row:1;min-height:300px}.character-visual img{height:380px;width:min(88%,350px)}.character-copy{grid-row:2}.character-copy h1{font-size:clamp(3.5rem,16vw,5.8rem)}.cast-feature{grid-column:span 12}.cast-cluster{grid-template-columns:1fr}}

@@ -1,0 +1,58 @@
+/* GTA VI Ultimate Guide — styles shared by editorial/content pages */
+.page-main{padding-top:var(--nav-h)}
+.page-hero{position:relative;min-height:clamp(360px,55vw,660px);display:flex;align-items:end;overflow:hidden;background:#0b0b12}
+.page-hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(.9)}
+.page-hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,5,10,.92),rgba(5,5,10,.55) 55%,rgba(5,5,10,.12)),linear-gradient(0deg,#0a0a0f 0%,transparent 55%)}
+.page-hero-copy{position:relative;z-index:1;width:min(1180px,92%);margin:0 auto;padding:4rem 0 3.3rem}
+.page-hero h1{font:900 clamp(3.2rem,10vw,7rem)/.9 var(--font-display);letter-spacing:.015em;margin:.65rem 0 1rem;text-transform:uppercase;text-shadow:0 8px 40px #000}
+.page-hero .lead{max-width:690px;font-size:clamp(1rem,2vw,1.2rem);line-height:1.75;color:#e3e3ed}
+.page-kicker{font:700 .68rem var(--font-mono);letter-spacing:.22em;text-transform:uppercase;color:var(--secondary)}
+.story-container{width:min(1180px,92%);margin:0 auto}
+.story-section{padding:clamp(3rem,7vw,6rem) 0}
+.story-section h2{font:800 clamp(2rem,4.4vw,3.7rem)/1.02 var(--font-display);text-transform:uppercase;margin:0 0 1rem}
+.story-section h3{font:700 1.28rem var(--font-head);letter-spacing:.04em;margin:.35rem 0 .7rem}
+.story-copy{color:var(--text-2);font-size:1.02rem;line-height:1.85;max-width:78ch}
+.story-copy strong{color:#fff}
+.story-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:1.1rem;margin-top:2rem}
+.story-card{grid-column:span 4;background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018));border:1px solid var(--line);border-radius:var(--radius);padding:1.35rem;position:relative;overflow:hidden}
+.story-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(var(--primary),var(--secondary));opacity:.8}
+.story-card p{color:var(--text-2);line-height:1.7;margin:.4rem 0 0}
+.story-card .card-index{font:700 .65rem var(--font-mono);letter-spacing:.16em;color:var(--accent)}
+.story-wide{grid-column:span 8}.story-half{grid-column:span 6}
+.confidence{display:inline-flex;align-items:center;gap:.35rem;border:1px solid rgba(0,255,157,.35);border-radius:99px;padding:.28rem .58rem;font:700 .62rem var(--font-mono);letter-spacing:.09em;color:#75ffc7;text-transform:uppercase}
+.confidence.press{border-color:rgba(0,212,255,.4);color:var(--secondary)}
+.confidence.community{border-color:rgba(255,215,0,.38);color:var(--accent)}
+.story-note{border:1px solid rgba(255,215,0,.24);background:rgba(255,215,0,.045);border-radius:var(--radius-sm);padding:1rem 1.15rem;color:var(--text-2);line-height:1.65}
+.story-note strong{color:var(--accent)}
+.story-links{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1.25rem}
+.story-link{display:inline-flex;gap:.5rem;align-items:center;color:#fff;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:.65rem 1rem;background:rgba(255,255,255,.035);transition:.2s}
+.story-link:hover{border-color:var(--secondary);color:var(--secondary);transform:translateY(-2px)}
+.story-image{display:block;width:100%;height:100%;min-height:300px;object-fit:cover;border-radius:var(--radius);border:1px solid var(--line)}
+.story-timeline{position:relative;display:grid;gap:0;margin:2rem 0 0;padding-left:1.6rem}
+.story-timeline:before{content:"";position:absolute;left:.34rem;top:.4rem;bottom:.5rem;width:1px;background:linear-gradient(var(--primary),var(--secondary),transparent)}
+.timeline-item{position:relative;padding:0 0 1.55rem 1rem;color:var(--text-2);line-height:1.65}
+.timeline-item:before{content:"";position:absolute;left:-1.58rem;top:.38rem;width:.62rem;height:.62rem;border-radius:50%;background:var(--secondary);box-shadow:0 0 16px rgba(0,212,255,.8)}
+.timeline-item strong{color:#fff}
+.chapter-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem;margin:1.2rem 0}
+.chapter{border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.025);padding:1rem 1.1rem}
+.chapter small{display:block;font:700 .62rem var(--font-mono);letter-spacing:.12em;color:var(--secondary);text-transform:uppercase;margin-bottom:.4rem}
+.chapter strong{display:block;font:700 1.1rem var(--font-head);color:white}
+.source-list{padding-left:1.2rem;color:var(--text-2);line-height:1.8}
+.source-list a{color:var(--secondary);text-underline-offset:3px}
+.mission-toolbar{display:flex;gap:.7rem;flex-wrap:wrap;align-items:center;margin:1.25rem 0}
+.mission-chapter{margin:1rem 0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:rgba(255,255,255,.025)}
+.mission-chapter summary{list-style:none;cursor:pointer;padding:1rem 1.2rem;display:flex;justify-content:space-between;gap:1rem;align-items:center;font:700 1.05rem var(--font-head);color:#fff}
+.mission-chapter summary::-webkit-details-marker{display:none}
+.mission-chapter summary:after{content:"＋";color:var(--secondary);font:700 1.2rem var(--font-mono)}
+.mission-chapter[open] summary:after{content:"−"}
+.mission-chapter summary span{color:var(--text-3);font:600 .72rem var(--font-mono)}
+.mission-list{list-style:none;margin:0;padding:.2rem 1.2rem 1.2rem;columns:2;column-gap:2rem}
+.mission-list li{break-inside:avoid;padding:.5rem 0;border-bottom:1px solid rgba(255,255,255,.055);color:var(--text-2);font-size:.9rem}
+.mission-list .redacted{color:var(--accent);font-style:italic}
+.spoiler-warning{display:flex;gap:.8rem;align-items:flex-start;padding:1rem 1.15rem;border:1px solid rgba(255,68,68,.35);background:rgba(255,68,68,.05);border-radius:12px;color:var(--text-2);line-height:1.6}
+.spoiler-warning strong{color:#ff7a7a}
+.page-footer{padding:2.2rem 0;border-top:1px solid var(--line);color:var(--text-3);font-size:.82rem}
+.page-footer-inner{width:min(1180px,92%);margin:auto;display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.page-footer a{color:var(--text-2)}
+@media(max-width:760px){.story-card,.story-wide,.story-half{grid-column:span 12}.chapter-grid{grid-template-columns:1fr}.mission-list{columns:1}.page-hero-copy{padding-bottom:2.2rem}.story-image{min-height:230px}}
+@media(prefers-reduced-motion:reduce){.story-link{transition:none}}

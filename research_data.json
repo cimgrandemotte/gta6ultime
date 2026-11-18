@@ -1,0 +1,1825 @@
+{
+  "_meta": {
+    "generated_at": "2026-11-18",
+    "method": "Web search (FR/EN) — sources officielles, presse, reviews de lancement, forums, Reddit, YouTube, GitHub et réseaux sociaux; les témoignages communautaires et les observations de reviews sont toujours attribués.",
+    "confidence_levels": [
+      "CONFIRMÉ (officiel Rockstar/Take-Two)",
+      "PRESSE (média fiable, embargo levé)",
+      "COMMUNAUTÉ (remontées joueur/reddit, non officiel)",
+      "FUITE (leaks, non officiel)",
+      "ESTIMATION"
+    ],
+    "disclaimer": "Relevé du 18/11/2026, fuseau Europe/Paris. Le déblocage est à minuit local le 19/11 dans chaque région; premières régions ont commencé le 18/11 UTC. Les infos de jeu et scores agrégés évoluent après lancement; les bugs communautaires ne sont pas vérifiés par défaut."
+  },
+  "release": {
+    "date": "2026-11-19",
+    "timezone_note": "Minuit heure locale par région ; débloqué en Nouvelle-Zélande le 2026-11-18 à midi (Paris)",
+    "platforms": [
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "pc": "Non annoncé officiellement — sources industrielles évoquent Q1 2027 (oct. 2026) [ESTIMATION]",
+    "xbox_cloud_gaming": "Rockstar annonce le jeu via Xbox Cloud Gaming sur Xbox Series X|S et Xbox One à partir du lancement, avec rendu de niveau Series S; cela ne constitue pas une version native Xbox One. Source : Rockstar Newswire, 10/11/2026.",
+    "storage_required_gb": 212,
+    "physical_edition": "Boîte avec code de téléchargement, pas de disque ; sorties physiques dès le 12/11/2026 [CONFIRMÉ]",
+    "ps5_mandatory_system_update": "Mise à jour système PS5 obligatoire avant minuit (PlayStation Support US, 18/11/2026) [CONFIRMÉ]"
+  },
+  "editions_pricing": {
+    "preorders_opened": "2026-06-25",
+    "standard": {
+      "price_usd": 79.99,
+      "price_eur": 79.99,
+      "content": [
+        "Jeu complet single-player",
+        "Vintage Vice City Pack (préco avant 20/11) : '55 Vapid Stanier, garage Ocean Beach, tenues/coiffures vintage Jason & Lucia, motif d'arme"
+      ],
+      "boxed_or_digital": "Les deux"
+    },
+    "ultimate": {
+      "price_usd": 99.99,
+      "price_eur": 99.99,
+      "content": [
+        "Tout le Standard",
+        "Ultimate Edition Upgrade (5 véhicules exclusifs dont '95 Grotti Cheetah, '67 Vapid Dominator Buggy, Dinka Enduro, Crest kayak, Shitzu Squalo)",
+        "Revolvers Hawk & Little Morgan + pistolets custom",
+        "Paradise Garage (armurerie/planque)",
+        "5 boutiques exclusives",
+        "Braquage de gang compound + commission classic car",
+        "Contenus débloqués au fil de l'histoire, pas d'un coup"
+      ],
+      "boxed_or_digital": "Digital uniquement"
+    },
+    "ultimate_upgrade_later": "Achetable séparément à tout moment (~20 $) par les possesseurs du Standard [CONFIRMÉ]",
+    "collector_edition": "Aucune édition collector physique annoncée [CONFIRMÉ]",
+    "gta_plus": "1 mois offert pour les précommandes digitales [CONFIRMÉ]",
+    "source": "Rockstar Newswire / Take-Two PR / egamersworld / gta6hype (nov. 2026)"
+  },
+  "critical_reception": {
+    "metacritic": 99,
+    "metacritic_count": "Snapshot primaire consulté le 18/11/2026 : 147 critiques PS5 et 14 Xbox Series X dans la fiche plateforme; valeurs dynamiques, actualiser avant publication / ne pas présenter comme score officiel Rockstar.",
+    "opencritic": null,
+    "highlights": [
+      "GameSpot — 10/10 (review du 18/11/2026; opinion éditoriale)",
+      "Kotaku — conseils sans spoiler issus du test du 18/11/2026; à attribuer",
+      "Digital Foundry — tests techniques relayés par Kotaku le 18/11; résultats de banc d’essai, pas un diagnostic universel"
+    ],
+    "game_awards_2026": "Annonce de nominations rapportée par la presse; ne pas confondre nomination avec victoire.",
+    "records": [
+      "Les métriques d’audience et ventes ne sont pas reprises sans source primaire ou méthodologie claire."
+    ]
+  },
+  "map_regions": [
+    {
+      "id": "vice-city",
+      "name": "Vice City",
+      "tagline": "Everything in Excess",
+      "inspiration": "Miami",
+      "key_points": [
+        "Ocean Beach",
+        "Little Cuba",
+        "Tisha-Wocka flea market",
+        "VC Port",
+        "Waning Sands (Leonard County, nord)"
+      ],
+      "status": "CONFIRMÉ"
+    },
+    {
+      "id": "leonida-keys",
+      "name": "Leonida Keys",
+      "tagline": "Gateway to Paradise",
+      "inspiration": "Florida Keys",
+      "key_points": [
+        "Key Lento (île principale)",
+        "Brian's Boat Works & Marina",
+        "Jason's House",
+        "Plongée confirmée"
+      ],
+      "status": "CONFIRMÉ"
+    },
+    {
+      "id": "grassrivers",
+      "name": "Grassrivers",
+      "tagline": "Welcome to the Wetlands",
+      "inspiration": "Everglades",
+      "key_points": [
+        "Town of Watson Bay (château d'eau officiel)",
+        "Airboats",
+        "Alligators + prédateurs"
+      ],
+      "status": "CONFIRMÉ"
+    },
+    {
+      "id": "port-gellhorn",
+      "name": "Port Gellhorn",
+      "tagline": "Live Hard",
+      "inspiration": "Panhandle (Panama City)",
+      "key_points": [
+        "Starlet Motel",
+        "Hank's Waffles",
+        "Kelly County",
+        "Économie : bière, antidouleurs, energy drinks"
+      ],
+      "status": "CONFIRMÉ"
+    },
+    {
+      "id": "ambrosia",
+      "name": "Ambrosia",
+      "tagline": "The Heart of Leonida",
+      "inspiration": "Hendry County / Clewiston (US Sugar)",
+      "key_points": [
+        "Allied Crystal sugar refinery",
+        "Biker gang local",
+        "Xero gas station",
+        "Panneaux électoraux maire"
+      ],
+      "status": "CONFIRMÉ"
+    },
+    {
+      "id": "mount-kalaga",
+      "name": "Mount Kalaga National Park",
+      "tagline": "Wild, Wild Country",
+      "inspiration": "Providence Canyon / North Florida-Georgia",
+      "key_points": [
+        "Frontière avec l'État de Gloriana",
+        "Chasse / pêche / off-road",
+        "Point culminant de Leonida"
+      ],
+      "status": "CONFIRMÉ"
+    }
+  ],
+  "map_facts": {
+    "size": "~2× la carte de GTA V, ~3× la zone jouable de RDR 2 (Rockstar via Game Informer, sept. 2026)",
+    "official_map": "Aucune carte complète officielle publiée ; une carte imprimable Leonida est offerte sur rockstargames.com le 19/11/2026 [PRESSE]",
+    "community_maps": [
+      "niveaumax.com (FR, 1 231+ POI)",
+      "leonidastate.guide",
+      "leonidaverse.com",
+      "GitHub navanem/gta6-leonida-atlas v0.8.2 — 3 431 records, Leaflet, open-source AGPL",
+      "GitHub fredmorais/leonida-marketing (carte des activations marketing réelles)"
+    ],
+    "counties_note": "Comtés cités : Leonard County (Waning Sands), Kelly County (Port Gellhorn), Vice City + autres — nomenclature incomplète, à compléter post-lancement [ESTIMATION]"
+  },
+  "characters_confirmed": [
+    {
+      "name": "Jason Duval",
+      "role": "Protagoniste jouable",
+      "bio": "A grandi parmi les escrocs ; ex-Army ; vit chez Brian Heder (Keys) contre aide aux coups ; veut une vie simple ; partenaire de Lucia",
+      "playable": true,
+      "status": "CONFIRMÉ"
+    },
+    {
+      "name": "Lucia Caminos",
+      "role": "Protagoniste jouable — PREMIÈRE héroïne principale d'un GTA 3D",
+      "bio": "Apprise à se battre par son père ; Leonida Penitentiary après avoir défendu sa famille ; racines Liberty City ; rêve d'une vie meilleure ; libérée au début du jeu",
+      "playable": true,
+      "status": "CONFIRMÉ"
+    },
+    {
+      "name": "Cal Hampton",
+      "role": "Ami de Jason, associé de Brian",
+      "bio": "Espionne les communications Coast Guard ; accro aux podcasts conspiration",
+      "status": "CONFIRMÉ"
+    },
+    {
+      "name": "Brian Heder",
+      "role": "Dealer old school, propriétaire de boat yard",
+      "bio": "Contrebande des années 70-80 ; marié à Lori (3e femme) ; loge Jason gracieusement",
+      "status": "CONFIRMÉ"
+    },
+    {
+      "name": "Lori",
+      "role": "Femme de Brian — nommée, sans profil propre",
+      "status": "CONFIRMÉ"
+    },
+    {
+      "name": "Boobie Ike",
+      "role": "Businessman Vice City — Only Raw Records",
+      "bio": "Immobilier, strip club, studio ; légende locale",
+      "status": "CONFIRMÉ"
+    },
+    {
+      "name": "Dre'Quan Priest",
+      "role": "Aspirant music mogul (Only Raw Records)",
+      "bio": "Ex-dealer ; a signé Real Dimez",
+      "status": "CONFIRMÉ"
+    },
+    {
+      "name": "Real Dimez (Bae-Luxe & Roxy)",
+      "role": "Duo rap signé Only Raw Records",
+      "bio": "Amis d'enfance viral depuis le lycée",
+      "status": "CONFIRMÉ"
+    },
+    {
+      "name": "DWNPLY",
+      "role": "Rappeur — nommé, sans profil propre",
+      "status": "CONFIRMÉ"
+    },
+    {
+      "name": "Raul Bautista",
+      "role": "Braqueur de banques expérimenté",
+      "bio": "Recrute des profils pour des coups de plus en plus risqués",
+      "status": "CONFIRMÉ"
+    }
+  ],
+  "characters_unconfirmed": [
+    "Tío Beto, Stefanie Gates, Clint Varner, Big Earl, Dr Ansel Moreau, Clyde Bodine, Viktor Sokolov, Phil Cassidy (retour), Nadia Okafor, Valentina — cités par la communauté, NON confirmés officiellement ; les afficher comme 'spéculation/fuite' ou les omettre"
+  ],
+  "gameplay_confirmed": {
+    "protagonists": "Contrôle alterné Jason/Lucia, y compris switch mid-mission et mid-braquage [CONFIRMÉ — Extended Look 27/08/2026]",
+    "wanted_system": "6 étoiles (vs 5 dans GTA V). Un crime doit être VU par un PNJ ou déclencher une alarme. Étoiles CREUSES = pas de description suspect. La police trace séparément vêtements, véhicule, visage. Masque + changement de tenue + changement de véhicule = évasion d'ID. Zones criminelles marquées sur la map ; y revenir réactive le niveau recherché [CONFIRMÉ]",
+    "criminal_profile": "Système non-moralité : suit les PATTERNS de comportement (excès vs nécessité), pas un karma bon/mauvais [CONFIRMÉ]",
+    "robbery_system": "Friperies, stations-service, fourgons blindés ; choix du coffre (forcer vite = dégâts / crocheter lent = butin max) ; co-op Jason+Lucia ; fences pour revendre [CONFIRMÉ]",
+    "weapon_wheel": "Roue d'armes redessinée ; carry limit style RDR2 (ex. 20/80 pistolet montré) ; slots binaires + consommables D-pad ; stockage tronc véhicule [CONFIRMÉ]",
+    "body_changes": "Salle de sport / nutrition — Jason & Lucia peuvent changer de corpulence [CONFIRMÉ]",
+    "phone": "Téléphone objet physique in-game [CONFIRMÉ]",
+    "stamina": "Jauge d'endurance avec vignette écran [FUITE CYBERLEEK, montré en Extended Look ? — à étiqueter]",
+    "stealth": "Flèche de furtivité bleue ; PNJ amis/intervenir ; refus de service selon comportement [FUITE]",
+    "activities": [
+      "Observation d'oiseaux (carnet 170 espèces)",
+      "Mode photo au lancement",
+      "Plongée (scuba) dans les Keys",
+      "Danse en club",
+      "Piscine au strip club",
+      "Basket (stat Focus +2%)",
+      "Braquages stores/banques",
+      "Chasse/pêche Mount Kalaga",
+      "Ménagerie : confiserie/salon ? (non confirmé)"
+    ],
+    "ui": [
+      "GPS/mini-map personnalisable ; mode minimal immersif",
+      "Roues armes + items séparées",
+      "Carte satellite en pause [FUITE]"
+    ],
+    "relationship_system": "Relation Jason↔Lucia dynamique selon le temps passé ensemble ; entretenir la relation influence le déroulement (Rob Nelson, The Guardian ; Extended Look) [CONFIRMÉ]"
+  },
+  "weapons_confirmed": {
+    "status": "État de recherche au 2026-11-18 : la liste complète officielle n’a pas été publiée. Séparer les noms écrits par Rockstar, les noms visibles dans l’interface, les catégories vues, les identifications de presse et les fuites.",
+    "rockstar_named_in_edition_copy": [
+      "Girardi ES9 pistol (Jason)",
+      "Klose K17 pistol (Lucia)",
+      "Hawk & Little Morgan Revolvers"
+    ],
+    "edition_nuance": "L’Ultimate Edition comprend les variantes personnalisées/gravées; ne pas présenter cela comme preuve que les versions standard des pistolets sont exclusives à l’édition.",
+    "named_in_official_gameplay_ui": [
+      "Moreland 850 Shotgun — nom lu dans le prompt de ramassage de l’Extended Look Rockstar (27/08/2026); la vidéo nomme l’arme, sans constituer une liste complète."
+    ],
+    "visually_shown_categories": [
+      "Pistolets et revolvers",
+      "Fusils et armes automatiques",
+      "Fusils à pompe",
+      "Lance-grenades",
+      "Armes de mêlée visibles"
+    ],
+    "secondary_visual_identifications": {
+      "Mustang .357": "presse signale l’inscription lisible sur une capture officielle; à distinguer d’une entrée de catalogue Rockstar",
+      "Capo pistol": "appellation/lecture de sources secondaires à revalider par nom de menu",
+      "Nipper .38": "identification utilisée par des guides; nom non repéré dans le texte Rockstar vérifié",
+      "Beretta/Bersa/Glock-style": "comparaisons de silhouettes avec des armes réelles, pas noms de jeu."
+    },
+    "launch_review_observations_2026_11_18": {
+      "status": "PRESSE — comptes rendus de critiques disposant d’une copie de test; ce ne sont pas des notes officielles Rockstar.",
+      "reported": [
+        "inventaire porté limité par rapport aux anciens GTA; plusieurs tests décrivent pistolets et armes longues sélectionnés, avec stockage dans véhicule/casier",
+        "armes longues visibles susceptibles d’attirer l’attention des PNJ",
+        "accessoires de personnalisation rapportés; GameSpot recommande un silencieux en début de partie",
+        "options de visée et mécanique Focus décrites dans les tests",
+        "les armes de poing ont des sensations différentes; aucune table comparative de dégâts/cadence n’a été corroborée ici."
+      ],
+      "sources": [
+        "https://www.ign.com/articles/grand-theft-auto-vi-review",
+        "https://www.gamespot.com/reviews/grand-theft-auto-6-review/",
+        "https://www.gamespot.com/articles/5-best-things-to-do-first-in-gta-6/",
+        "https://www.gamingtrend.com/reviews/grand-theft-auto-vi-review/",
+        "https://www.theouterhaven.net/grand-theft-auto-vi-review/"
+      ]
+    },
+    "social_leak_2026_11_17": {
+      "summary": "Des captures supplémentaires ont circulé via X et des médias rapportent une provenance alléguée d’un backend de site de review. Non publiées comme galerie officielle Rockstar; non utilisées comme preuve.",
+      "source": "https://insider-gaming.com/gta-6-screenshots-surface-social-media/",
+      "social": "https://x.com/GTAVI_Countdown/status/2122826830789190068",
+      "status": "FUITE / réseaux — ne pas republier ni élever en fait confirmé."
+    },
+    "community_monitoring": {
+      "forums": "https://gtaforums.com/topic/993075-gta-6-combat-weapons-discussions/",
+      "reddit": "https://www.reddit.com/r/GTA6/",
+      "youtube": "https://www.youtube.com/watch?v=lLYu4ftL9KI",
+      "github_search": "https://github.com/search?q=GTA+VI+weapon+database&type=repositories",
+      "note": "Forums/YouTube/Reddit/X ont des identifications spéculatives; les dépôts trouvés par recherche GitHub ne constituent pas un registre Rockstar de données jouées."
+    },
+    "official_primary_sources": [
+      "https://www.rockstargames.com/VI/editions",
+      "https://www.rockstargames.com/videos/rk721912",
+      "https://www.rockstargames.com/VI/media/screenshots"
+    ],
+    "prohibited_as_confirmed": [
+      "chiffres de dégâts/prix/capacité non sourcés",
+      "noms issus uniquement du leak 2022 ou d’un datamine",
+      "modèle réel déduit d’une silhouette",
+      "total d’armes calculé par une base de fans présenté comme nombre Rockstar"
+    ]
+  },
+  "vehicles_confirmed": {
+    "official_screenshots_nov6": [
+      "Grotti Cheetah",
+      "Albany Buccaneer",
+      "Progen Emerus",
+      "Invetero Coquette",
+      "Albany Manana",
+      "Pegassi Tempesta (livrée police)"
+    ],
+    "ultimate_exclusive": [
+      "'95 Grotti Cheetah",
+      "'67 Vapid Dominator Buggy",
+      "Dinka Enduro",
+      "Crest kayak",
+      "Shitzu Squalo (bateau)"
+    ],
+    "preorder_vintage": [
+      "'55 Vapid Stanier"
+    ],
+    "status": "Aucune liste officielle ; rayures en jeu à confirmer post-lancement"
+  },
+  "music": {
+    "score_composer": "Justice (duo français) — crédité compositeurs de la musique originale [CONFIRMÉ]",
+    "launch_trailer_song": "'Flower in a Hurricane' — Justice feat. Tame Impala, SZA, King Gizzard & The Lizard Wizard (15/10/2026) [CONFIRMÉ]",
+    "album": "Grand Theft Auto VI: The Album — 34 titres annoncés, 9 singles listés sur la page musique officielle [CONFIRMÉ]",
+    "radio_stations_named": [
+      "Cocoteo FM",
+      "Back Country Radio",
+      "AfroBank FM",
+      "The Chamber 106.6",
+      "Flash FM",
+      "Dirty South Classics"
+    ],
+    "radio_hosts_announced": [
+      "Bad Bunny",
+      "Burna Boy",
+      "Robyn",
+      "Lana Del Rey",
+      "membres de Slayer"
+    ],
+    "trailer1": "Tom Petty — Love Is a Long Road (12/2023)",
+    "trailer2": "Hot Together (The Pointer Sisters), Everybody Have Fun Tonight (Wang Chung), Talkin' to Myself Again (Tammy Wynette), Thunder Island (Jay Ferguson), Child Support (Zenglen), I Love Rock 'n' Roll (The Arrows)",
+    "extended_look_tracks": [
+      "Pop Bottles (Birdman ft Lil Wayne)",
+      "Pound Town (Sexyy Red & Tay Keith)",
+      "Skrilla (Kodak Black)",
+      "Let Your Love Flow (Bellamy Brothers)",
+      "Love Bites (Def Leppard)",
+      "People Are People (Depeche Mode)",
+      "Devil Woman (Cliff Richard)",
+      "Off the Grid (!!! ft Meah Pace)",
+      "Se Me Nota (Chimbala & Omega)",
+      "But I Think It's a Dream (Captain & Tennille)",
+      "Cars and Girls (Prefab Sprout)"
+    ],
+    "source": "gta6guide.fr, gtaboom.com, gtabase.com (août–nov. 2026)"
+  },
+  "online_mode": {
+    "launch_status": "Le jeu sort UNIQUEMENT single-player le 19/11/2026 — confirmé PlayStation listing + Take-Two (17/09/2026) [CONFIRMÉ]",
+    "gta_online_legacy": "GTA Online legacy continue d'être supporté après la sortie de GTA VI [CONFIRMÉ Take-Two]",
+    "gta6_online_window": "2027 — selon Dan Clancy (PDG Twitch, Bloomberg 17/09/2026) et Bloomberg Originals (14/10/2026, 'fin 2027 probable'). AUCUNE date officielle Rockstar [PRESSE — non confirmé]",
+    "note": "Ne PAS présenter GTA 6 Online comme disponible. Page Online = état des lieux + spéculation étiquetée"
+  },
+  "community_tools_github": [
+    {
+      "repo": "navanem/gta6-leonida-atlas",
+      "desc": "Atlas communautaire interactif Leonida (Leaflet + React + TS, local-first)",
+      "release": "v0.8.2 — 2026-11-17, 3 431 lieux catalogués",
+      "license": "AGPL-3.0"
+    },
+    {
+      "repo": "fredmorais/leonida-marketing",
+      "desc": "Carte MapLibre des activations marketing GTA VI réelles",
+      "license": "AGPL-3.0"
+    }
+  ],
+  "day_one_tips": [
+    "Xbox Series X|S : régler la région console sur Nouvelle-Zélande (Paramètres > Système > Langue et emplacement) pour jouer dès le 18/11 12h Paris — changer ensuite de nouveau ; ne RIEN acheter pendant que la région NZ est active [COMMUNAUTÉ — fonctionne]",
+    "PS5 : astuce NZ possible seulement via compte PSN NZ + rachat du jeu — déconseillé (compte séparé) [COMMUNAUTÉ]",
+    "Précharger (212 Go) + mise à jour système PS5 obligatoire avant minuit [CONFIRMÉ]",
+    "Mode minimal : personnaliser GPS/minimap pour l'immersion [CONFIRMÉ]",
+    "Mode photo disponible day-one [CONFIRMÉ]",
+    "Masquer les mots-clés GTA6 sur réseaux sociaux pour éviter les spoilers",
+    "L'expérience ~80 h : planifier les sessions, sauvegardes auto"
+  ],
+  "news_timeline": [
+    {
+      "date": "2023-12-04",
+      "text": "Trailer 1 — 90,4 M vues en 24 h"
+    },
+    {
+      "date": "2025-05-06",
+      "text": "Trailer 2 + profils personnages Only in Leonida"
+    },
+    {
+      "date": "2025-05",
+      "text": "Premier report : 2025 → 26/05/2026"
+    },
+    {
+      "date": "2025-11",
+      "text": "Second report : 26/05/2026 → 19/11/2026"
+    },
+    {
+      "date": "2026-06-25",
+      "text": "Précommandes — 79,99 € / 99,99 €"
+    },
+    {
+      "date": "2026-08-18",
+      "text": "Fuite 'CYBERLEEK' (gameplay mechanics)"
+    },
+    {
+      "date": "2026-08-27",
+      "text": "'An Extended Look' — 26 min de gameplay officiel (Netflix/YouTube Rockstar)"
+    },
+    {
+      "date": "2026-09-17",
+      "text": "Take-Two shareholder meeting : confirmation single-player ; Twitch CEO : Online en 2027"
+    },
+    {
+      "date": "2026-10-15",
+      "text": "Launch Trailer — 'Flower in a Hurricane' (Justice feat. Tame Impala, SZA, King Gizzard)"
+    },
+    {
+      "date": "2026-10-14",
+      "text": "Bloomberg Originals (Schreier) : multijoueur ≈ fin 2027"
+    },
+    {
+      "date": "2026-11-06",
+      "text": "Screenshots officiels Hypedrive : 6 voitures in-game"
+    },
+    {
+      "date": "2026-11-10",
+      "text": "Préchargement ouvert (212 Go)"
+    },
+    {
+      "date": "2026-11-18",
+      "text": "Embargo levé : Metacritic 99 — déblocage NZ midi (Paris) — BBC/AFP/France24 en live"
+    },
+    {
+      "date": "2026-11-19",
+      "text": "SORTIE MONDIALE — PS5 & Xbox Series X|S"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI",
+    "https://www.numerama.com/pop-culture/2375431-sortie-de-gta-6-en-direct.html",
+    "https://stephanelarue.com/gta-6-sort-jeudi-a-minuit-212-go-79-99-e-et-des-records-deja-battus/",
+    "https://gta-zone.com/news/gta-6-price-preorder-ultimate-edition/",
+    "https://www.gta6hype.com/editions/",
+    "https://www.wikigta6.com/gta-6-map2/",
+    "https://gta-6-france.fr/guides/gta-6-carte-map",
+    "https://www.theclick.gg/gta-6-map-regions/",
+    "https://gtaside.com/games/gta6/characters/",
+    "https://expcarry.com/gta-6-characters",
+    "https://www.theclick.gg/gta-6-characters-list/",
+    "https://thegta6vault.com/news/gta-6-extended-look-all-confirmed-gameplay-mechanics",
+    "https://www.wikigtavi.com/guides/gta-6-leaked-gameplay-mechanics",
+    "https://gta2026.com/gta-6-gameplay/",
+    "https://timesaver.gg/blog/gta-6-robberies-confirmed-2026",
+    "https://timesaver.gg/blog/gta-6-weapons-weapon-wheel-carry-limit",
+    "https://timesaver.gg/blog/gta-6-confirmed-cars-vehicles-trailers-2026",
+    "https://gta6guide.fr/en/gta-6/music",
+    "https://www.gtaboss.gg/gta-6/guides/gta-6-radio-stations",
+    "https://www.gtabase.com/fr/gta-6/bande-originale",
+    "https://www.bbc.com/news/live/c60rkg21dl22t",
+    "https://insider-gaming.com/gta-6-gets-a-99-in-early-metacritic-review-scores/",
+    "https://www.xboxygen.com/News/374522-tests-de-gta-6-les-premiers-avis-sont-la-cest-un-jeu-historique-avec-99-metacritic",
+    "https://timesaver.gg/blog/gta-6-online-multiplayer-confirmed-2026",
+    "https://www.blog-nouvelles-technologies.fr/393269/gta-6-online-date-sortie-fonctionnalites/",
+    "https://github.com/navanem/gta6-leonida-atlas",
+    "https://www.6cheats.com/fr/astuces/gta-6-astuce-nouvelle-zelande-jouer-en-avance",
+    "https://www.reddit.com/r/xbox/comments/1xw7fhk/gta_6_new_zealand_trick/",
+    "https://www.fr.headtopics.com/news/apres-13-ans-d-attente-les-premiers-joueurs-se-plongent-dans-la-superproduction",
+    "https://www.france24.com/fr/info-en-continu/20261118-après-13-ans-d-attente-le-jeu-vidéo-phénomène-gta-vi-déferle-sur-l-industrie-du-divertissement",
+    "https://www.rockstargames.com/VI",
+    "https://www.gamespot.com/articles/how-long-to-beat-gta-6/",
+    "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
+    "https://press-start.com.au/news/2026/11/18/heres-how-many-story-missions-are-in-grand-theft-auto-6/",
+    "https://gtaforums.com/forum/396-gta-vi/",
+    "https://www.reddit.com/r/gta6_official/",
+    "https://www.rockstargames.com/VI/only-in-leonida",
+    "https://sea.ign.com/grand-theft-auto-vi-rumored-title/249916/gta-6-the-big-interview",
+    "https://in.ign.com/grand-theft-auto-vi/277292/grand-theft-auto-6-lucia-actress-finally-revealed-and-yes-its-who-you-probably-suspected",
+    "https://www.thegameawards.com/nominees",
+    "https://www.gamespot.com/gallery/every-grand-theft-auto-6-character-revealed/2900-6537/",
+    "https://gtaintel.com/games/gta-6/best/confirmed-characters",
+    "https://thegameawards.com/categories/best-performance",
+    "https://www.rockstargames.com/VI/only-in-leonida/vice-city",
+    "https://www.rockstargames.com/newswire/article/3928aaa9471o3a/grand-theft-auto-vi-watch-trailer-2-now",
+    "https://www.ign.com/articles/gta-6-preload-times-and-install-size-confirmed-rockstar-announces-physical-cover-art-poster-and-map-of-leonida",
+    "https://github.com/navanem/gta6-leonida-atlas/releases/tag/v0.8.2",
+    "https://www.notebookcheck.net/Full-GTA-6-map-from-Collector-s-Edition-leaks-showing-new-parts-of-Leonida.1448856.0.html"
+  ],
+  "honesty_notes": [
+    "Aucune liste officielle d'armes/véhicules/missions publiée par Rockstar au 2026-11-18.",
+    "Les mécaniques 'CYBERLEEK' (août 2026) sont des FUITES, pas des faits officiels — à étiqueter comme tels sur le site.",
+    "Le sitemap 'missions par mission', 'collectibles exacts', 'cheats officiels' N'EXISTENT PAS encore : le contenu sera structuré, sourcé, et indiqué 'à compléter post-lancement'.",
+    "Metacritic 99 : embargos levés le 18/11 — score susceptible d'évoluer."
+  ],
+  "story_missions_launch_reporting": {
+    "checked_at": "2026-11-18",
+    "official_synopsis": "Rockstar official page: easy score gone wrong, statewide Leonida criminal conspiracy, Jason and Lucia rely on each other to survive. No ending, detailed mission order, or antagonist revealed there.",
+    "launch_press_lists": {
+      "gamespot": "https://www.gamespot.com/articles/how-long-to-beat-gta-6/",
+      "pcgamer": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
+      "reported_chapters": 5,
+      "gamespot_reported_mission_titles": 91,
+      "press_start_alternate_reported_total": 93,
+      "editorial_rule": "Keep mission list attributed to press, preserve the 91/93 discrepancy, and do not invent hidden titles or claim Rockstar officially published the list."
+    },
+    "community_scan": {
+      "reddit": "https://www.reddit.com/r/gta6_official/",
+      "forum": "https://gtaforums.com/forum/396-gta-vi/",
+      "youtube": "https://www.youtube.com/@RockstarGames",
+      "github": "https://github.com/navanem/gta6-leonida-atlas",
+      "note": "Community/YouTube/GitHub search used to identify discussion and tooling; not treated as primary evidence for plot or mission order."
+    }
+  },
+  "characters_research_update_2026_11_18": {
+    "official_primary": "https://www.rockstargames.com/VI/only-in-leonida",
+    "profiled_characters": [
+      "Jason Duval",
+      "Lucia Caminos",
+      "Cal Hampton",
+      "Boobie Ike",
+      "Dre'Quan Priest",
+      "Real Dimez (Bae-Luxe and Roxy)",
+      "Raul Bautista",
+      "Brian Heder"
+    ],
+    "named_without_standalone_bios": [
+      "Lori Heder",
+      "DWNPLY"
+    ],
+    "jason_actor": "Not publicly confirmed in the sources checked on 2026-11-18; Dylan Rourke remains unverified speculation.",
+    "lucia_performance": "The Game Awards Best Performance nominee list published 2026-11-17 lists Manni L. Perez for Grand Theft Auto VI. IGN and other outlets attribute that nomination to Lucia Caminos; Rockstar has not published a full cast list and the nominee list itself is less specific than an official Rockstar cast announcement.",
+    "switching": "The 2026-08-27 Extended Look and Rob Nelson IGN interview (2026-10-07) demonstrate character switching and coordinated play in selected scenes; Rob Nelson says narrative moments can restrict switching.",
+    "community_scans": {
+      "reddit": "https://www.reddit.com/r/GTA6/comments/1w0j666/wasnt_convinced_about_lucia_at_first_but_shes/",
+      "gtaforums": "https://gtaforums.com/forum/396-gta-vi/",
+      "youtube": "https://www.youtube.com/@RockstarGames",
+      "github": "https://github.com/luiscazorla97-creator/gta6",
+      "note": "Community reactions and fan repos are not primary evidence for biography, casting or plot."
+    },
+    "sources": [
+      "https://www.rockstargames.com/VI/only-in-leonida",
+      "https://sea.ign.com/grand-theft-auto-vi-rumored-title/249916/gta-6-the-big-interview",
+      "https://in.ign.com/grand-theft-auto-vi/277292/grand-theft-auto-6-lucia-actress-finally-revealed-and-yes-its-who-you-probably-suspected",
+      "https://thegameawards.com/categories/best-performance",
+      "https://www.thegameawards.com/nominees",
+      "https://www.gamespot.com/gallery/every-grand-theft-auto-6-character-revealed/2900-6537/",
+      "https://gtaintel.com/games/gta-6/best/confirmed-characters"
+    ]
+  },
+  "map_research_update_2026_11_18": {
+    "official_regions": [
+      "Vice City",
+      "Leonida Keys",
+      "Grassrivers",
+      "Port Gellhorn",
+      "Ambrosia",
+      "Mount Kalaga National Park"
+    ],
+    "official_region_hub": "https://www.rockstargames.com/VI/only-in-leonida",
+    "official_map_download": "IGN reports Rockstar announced a free printable Leonida map and cover-art poster download for launch day 2026-11-19. At research time (2026-11-18) launch is tomorrow; verify on the Rockstar site on launch day.",
+    "map_size": "No official area in square kilometres confirmed in materials reviewed. Any ~2x GTA V claim must be labelled press/estimate; do not give speculative km² as official.",
+    "community_atlas": {
+      "url": "https://github.com/navanem/gta6-leonida-atlas/releases/tag/v0.8.2",
+      "version": "0.8.2",
+      "release_date": "2026-11-17",
+      "records": 3431,
+      "status": "Community landmarks across six regions; approximate placements, not Rockstar-authored POI count."
+    },
+    "social_leak": {
+      "date": "2026-11-12",
+      "coverage": "Notebookcheck reported X/Instagram images of a printed map poster associated with Vice City Collection.",
+      "status": "FUITE / unofficial social unboxing; do not republish poster image or promote unconfirmed region/district/county labels to confirmed status.",
+      "source": "https://www.notebookcheck.net/Full-GTA-6-map-from-Collector-s-Edition-leaks-showing-new-parts-of-Leonida.1448856.0.html"
+    },
+    "vice_city_official_places": [
+      "Ocean Beach",
+      "Little Cuba",
+      "Tisha-Wocka flea market",
+      "VC Port"
+    ],
+    "keys_notes": "Officially described as a tropical archipelago and gateway to paradise; Jason starts in the Keys; Brian operates a boatyard. Key Lento and The Rusty Anchor are promotion/community-tracked proper nouns; precise coordinates/boundaries remain unverified.",
+    "community_searches": {
+      "github": "https://github.com/navanem/gta6-leonida-atlas/releases/tag/v0.8.2",
+      "reddit": "https://www.reddit.com/r/GTA6/",
+      "forums": "https://gtaforums.com/forum/396-gta-vi/",
+      "youtube": "https://www.youtube.com/@RockstarGames",
+      "x": "https://x.com/gtasix_"
+    }
+  },
+  "map_regions_batch_2026_11_18": {
+    "batch_pages": [
+      "pages/carte/grassrivers.html",
+      "pages/carte/port-gellhorn.html",
+      "pages/carte/ambrosia.html"
+    ],
+    "research_date": "2026-11-18",
+    "method": "Searches across Rockstar, press, GitHub, YouTube, Reddit/forums, and social platforms. Rockstar page extraction returned generic VI content; cited official region portal is a primary-source lead; the page copy relies on searchable official descriptions and promotional imagery, explicitly noting extraction limits.",
+    "official_region_hub": "https://www.rockstargames.com/VI/only-in-leonida",
+    "official_region_descriptions": {
+      "grassrivers": "Rockstar describes wetlands/mangroves, alligators and other unknown dangers/discoveries. Airboats are visible in official promotional imagery; exact gameplay and boundaries are not established.",
+      "port-gellhorn": "Rockstar describes a declining former vacation destination with inexpensive motels and shuttered attractions; regional economic details are descriptive context, not confirmed gameplay systems.",
+      "ambrosia": "Rockstar names Allied Crystal sugar refinery and says a local biker gang provides almost everything else; gang proper name and gameplay functions are not established by the regional blurb."
+    },
+    "secondary_or_community_observations": {
+      "grassrivers": "Notebookcheck discussed late-October promotional screenshots including marsh/airboat imagery. Do not treat community atlas placement or fan interpretation as official boundaries.",
+      "port-gellhorn": "GTADB community listing associates Delights Cabaret with Port Gellhorn based on official screenshot; exact placement is unverified. Starlet Motel is an image/marketing landmark; access/safehouse role not confirmed.",
+      "ambrosia": "GTA6 Compass and GTAVice.net are secondary syntheses of official imagery; Clewiston/Hendry County is a fan/press inspiration comparison, not Rockstar-confirmed geography."
+    },
+    "community_atlas_context": "GitHub navanem/gta6-leonida-atlas v0.8.2 released 2026-11-17 lists 3,431 community records across six regions. This is not an official POI count or authoritative region geometry.",
+    "sources": [
+      "https://www.rockstargames.com/VI/only-in-leonida/grassrivers",
+      "https://www.rockstargames.com/VI/only-in-leonida/port-gellhorn",
+      "https://www.rockstargames.com/VI/only-in-leonida/ambrosia",
+      "https://github.com/navanem/gta6-leonida-atlas/releases/tag/v0.8.2",
+      "https://gtadb.net/locations/delights-cabaret/",
+      "https://www.gtavice.net/news/official-website-screenshots-with-rockstars-descriptions",
+      "https://www.notebookcheck.net/GTA-6-12-new-screenshots-show-interesting-details-outside-Vice-City.1437127.0.html",
+      "https://gta6compass.net/locations/ambrosia",
+      "https://gta-6-map.org/",
+      "https://www.youtube.com/watch?v=mt6xusKucDM",
+      "https://www.youtube.com/watch?v=LiUidp5cP68",
+      "https://www.youtube.com/watch?v=OA0A6eftcAI",
+      "https://www.theclick.gg/gta-6-map-regions/",
+      "https://expcarry.com/gta-6-locations",
+      "https://x.com/GTASeries/status/2104975449969340786?lang=en",
+      "https://x.com/GTAVI_Countdown/status/2105029429542146444"
+    ],
+    "limitations": [
+      "Rockstar fetch extraction returned generic page material, not region-specific body text.",
+      "Reddit/forum search yielded no reliable new first-hand gameplay evidence.",
+      "No exact coordinates, official map borders, safehouses, access rules, or mission mechanics inferred."
+    ]
+  },
+  "mount_kalaga_research_2026_11_18": {
+    "official_region_url": "https://www.rockstargames.com/VI/only-in-leonida/kalaga",
+    "official_description": "“Wild, Wild Country”; northern fringes / national landmark at Leonida’s northern border; prime hunting, fishing and off-road trails; backwoods inhabitants described as hillbilly mystics and paranoid radicals.",
+    "official_media": "https://www.rockstargames.com/VI/media/screenshots (gallery extraction lists 138 official screenshots, including regional images); https://www.rockstargames.com/videos/rk721912 (Extended Look).",
+    "review_update": "Reviews published 2026-11-18 describe playable hunting/fishing/outdoor activity. Attribute gameplay specifics to the review author, not to Rockstar’s short region description.",
+    "fishing_report": "GameSpot reported 2026-09-03, citing Rockstar North co-studio head Rob Nelson, that fishing is catch-and-release and is linked to challenges/collectibles; not a money-making system per that interview.",
+    "community_map_note": "Community maps propose county names, exact borders, X/Y pins, waterfalls/bridges/cabins and real-world inspirations; no official coordinates or detailed boundary map verified.",
+    "sources": [
+      "https://www.rockstargames.com/VI/only-in-leonida/kalaga",
+      "https://www.rockstargames.com/VI/media/screenshots",
+      "https://www.rockstargames.com/videos/rk721912",
+      "https://www.gamespot.com/articles/gta-6-fishing-and-hunting-doesnt-work-like-you-think-it-does/",
+      "https://www.eurogamer.net/grand-theft-auto-6-review",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-locations/",
+      "https://www.reddit.com/r/GTA6/comments/1uo42fb/what_do_you_think_mount_kalaga_national_park_will/",
+      "https://github.com/navanem/gta6-leonida-atlas/releases/tag/v0.8.2"
+    ]
+  },
+  "weapons_mount_kalaga_batch_2026_11_18": {
+    "pages": [
+      "pages/carte/mount-kalaga.html",
+      "pages/armes/index.html",
+      "pages/armes/pistolets.html"
+    ],
+    "research_method": "Web searches across official Rockstar pages/media, current reviews, GamesRadar/GameSpot/IGN/Eurogamer, X, Reddit, GTAForums, YouTube, GitHub and community map/database sites. Official page extraction for Mount Kalaga returned the general GTA VI hub; use the official URL plus indexed official description and label the extraction limitation.",
+    "key_editorial_decision": "Because review embargo lifted on 2026-11-18, usable tips from review copies are now reported as PRESS/reviewer observations; distinguish those from Rockstar text, official media, and social leaks.",
+    "source_urls": [
+      "https://www.rockstargames.com/VI/editions",
+      "https://www.rockstargames.com/VI/only-in-leonida/kalaga",
+      "https://www.rockstargames.com/videos/rk721912",
+      "https://www.rockstargames.com/VI/media/screenshots",
+      "https://www.gamespot.com/articles/5-best-things-to-do-first-in-gta-6/",
+      "https://www.ign.com/articles/grand-theft-auto-vi-review",
+      "https://www.gamesradar.com/games/grand-theft-auto/gta-6-weapons/",
+      "https://gtaintel.com/news/gta-6-confirmed-weapons-list",
+      "https://insider-gaming.com/gta-6-screenshots-surface-social-media/",
+      "https://www.gtaforums.com/topic/993075-gta-6-combat-weapons-discussions/",
+      "https://www.youtube.com/watch?v=lLYu4ftL9KI",
+      "https://github.com/search?q=GTA+VI+weapon+database&type=repositories",
+      "https://x.com/GTAVI_Countdown/status/2122826830789190068"
+    ],
+    "limitations": [
+      "No complete Rockstar weapon roster or stat chart found.",
+      "No exact Mount Kalaga map boundaries or coordinate system published in the official sources checked.",
+      "Six additional social screenshots reported Nov. 17 are treated as a leak, not first-party evidence.",
+      "Review recommendations represent individual playstyles, not universal best builds."
+    ]
+  },
+  "weapons_rifles_explosives_melee_batch": {
+    "checked_at": "2026-11-18",
+    "scope": [
+      "rifles",
+      "explosives",
+      "melee"
+    ],
+    "evidence_policy": "Rockstar primary evidence is kept separate from press observation, community discussion, and unverified/leaked claims. No complete roster or stats assumed.",
+    "rifles": {
+      "duke_556": "IGN Extended Look breakdown identifies Duke 556 in footage; Rockstar page identifies footage as in-game PS5, but no official rifle roster or specs.",
+      "practical_press_themes": [
+        "limited carried loadout and vehicle storage described in launch reviews",
+        "visible long guns can draw NPC attention (IGN Extended Look analysis)",
+        "cover and positioning matter in reviewer accounts",
+        "Focus and lethal/incapacitating weak-point targeting reported by reviewers"
+      ]
+    },
+    "explosives": {
+      "launcher": "IGN Trailer 2 breakdown identifies a grenade launcher; launch-trailer breakdown describes a rotary grenade launcher. Visual identification, not complete roster/specification.",
+      "unknowns": [
+        "full explosive inventory",
+        "damage/range/ammunition stats",
+        "price and unlock requirements"
+      ]
+    },
+    "melee": {
+      "review_observations": "Review coverage mentions blocking/counters in melee; reviewer assessment differs on how deep the system feels. Focus reportedly allows differentiated weak-point outcomes in some contexts; verify in game.",
+      "community_claims": "Fan lists for bats, knives, crowbars, pool cues and improvised weapons are leads only; not a complete confirmed roster."
+    },
+    "sources": [
+      {
+        "tier": "official primary",
+        "url": "https://www.rockstargames.com/videos/rk721912",
+        "note": "Extended Look is identified as in-game PS5 footage."
+      },
+      {
+        "tier": "press observation",
+        "url": "https://www.ign.com/articles/99-details-from-the-gta-6-extended-look",
+        "note": "Duke 556, loadout/weapon visibility and police reaction observations."
+      },
+      {
+        "tier": "press observation",
+        "url": "https://www.ign.com/articles/89-details-from-the-gta-6-trailer-2",
+        "note": "Grenade launcher identified in Trailer 2."
+      },
+      {
+        "tier": "press observation",
+        "url": "https://www.ign.com/articles/33-new-details-from-the-gta-6-launch-trailer",
+        "note": "Rotary grenade launcher identified in launch trailer."
+      },
+      {
+        "tier": "community discussion",
+        "url": "https://www.gtaforums.com/topic/993075-gta-6-combat-weapons-discussions/page/4/",
+        "note": "Speculation on roster and carry rules; not authoritative."
+      },
+      {
+        "tier": "community discussion",
+        "url": "https://www.reddit.com/r/GTA/comments/1w56n8l/more_gta_vi_details_gunplay_weapons_movement/",
+        "note": "Community summary of preview/reporter details; corroborate against reporting."
+      },
+      {
+        "tier": "community repository",
+        "url": "https://github.com/Racketsvibes/gtavispot/pull/32",
+        "note": "Community guide methodology; research lead, not primary gameplay confirmation."
+      },
+      {
+        "tier": "community video",
+        "url": "https://www.youtube.com/watch?v=y1fXowsnAoA",
+        "note": "Weapon-list analysis, not official confirmation."
+      },
+      {
+        "tier": "press reviews",
+        "url": "https://www.gamespot.com/reviews/grand-theft-auto-6-review/",
+        "note": "Nov 18 review themes: Focus, cover, melee and combat tactics; attribute to reviewer."
+      }
+    ],
+    "limitations": [
+      "Search snippets and community lists disagree on confirmed weapon counts.",
+      "No precise stats or best-in-class rankings added without verified in-game comparative evidence.",
+      "Claims from backend screenshots/leaks are excluded from official evidence."
+    ]
+  },
+  "vehicles_cars_motorcycles_batch": {
+    "checked_at": "2026-11-18",
+    "scope": [
+      "vehicle_hub",
+      "cars",
+      "motorcycles"
+    ],
+    "evidence_policy": "Official Rockstar edition/media evidence, press review observations, community claims and unverified lists kept distinct. No full roster or invented performance statistics.",
+    "named_in_rockstar_editions": [
+      "95 Grotti Cheetah",
+      "Vapid Ganado / Ganado Retro Build",
+      "55 Vapid Stanier",
+      "67 Vapid Dominator Buggy",
+      "Dinka Enduro",
+      "Shitzu Squalo",
+      "Crest Kayak"
+    ],
+    "cars": {
+      "official_media": "Rockstar edition page names selected bonus/content vehicles; launch gallery is primary evidence for visible models, not a full catalog.",
+      "press_observations": [
+        "GameSpot reviewer found vehicle handling meaningfully differentiated; high-speed driving needed finesse in their experience.",
+        "TheSixthAxis review describes car scanning, values/trackers, theft progression, registration and garages.",
+        "Shacknews reviewer reports fuel/EV charging and vehicle storage; attributed reviewer account.",
+        "IGN review coverage praises car handling and details damage, but notes motorcycle handling felt upright/stiff."
+      ]
+    },
+    "motorcycles": {
+      "named_model": "Dinka Enduro appears in Rockstar edition content; official named model does not establish complete bike list or specifications.",
+      "review_variance": [
+        "IGN review describes motorcycle handling as upright/stiff compared with previous entries.",
+        "Forbes reviewer recommends a performance motorcycle for fast cornering in their personal playthrough. These opinions differ; no universal ranking."
+      ],
+      "community_notes": "Reddit image-analysis discussion points to visible kickstand/cables as fan observations, not proof of gameplay mechanics."
+    },
+    "sources": [
+      {
+        "tier": "official primary",
+        "url": "https://www.rockstargames.com/VI/editions",
+        "note": "Edition product page; names and bonus context."
+      },
+      {
+        "tier": "official primary",
+        "url": "https://www.rockstargames.com/newswire/article/39ak81277255o9/explore-the-grand-theft-auto-vi-launch-gallery",
+        "note": "Launch gallery announced 5 Nov 2026; screenshot source."
+      },
+      {
+        "tier": "press review",
+        "url": "https://www.gamespot.com/reviews/grand-theft-auto-6-review/",
+        "note": "Vehicle handling variety and high-speed driving reviewer experience."
+      },
+      {
+        "tier": "press review",
+        "url": "https://www.ign.com/articles/grand-theft-auto-vi-review",
+        "note": "Motorcycle handling impression; attribute to IGN reviewer."
+      },
+      {
+        "tier": "press review",
+        "url": "https://www.thesixthaxis.com/2026/11/18/grand-theft-auto-6-review/",
+        "note": "Vehicle theft, scanning, trackers, garages and customization observations."
+      },
+      {
+        "tier": "press review",
+        "url": "https://www.shacknews.com/article/151380/gta-6-review-score",
+        "note": "Fuel, electric charging and car-as-inventory observations; attributed."
+      },
+      {
+        "tier": "press review",
+        "url": "https://www.forbes.com/sites/paultassi/2026/11/18/gta-6-review-a-perfect-crime/",
+        "note": "Personal reviewer preference for high-performance motorcycle; not universal."
+      },
+      {
+        "tier": "secondary report",
+        "url": "https://timesaver.gg/blog/gta-6-confirmed-cars-vehicles-trailers-2026",
+        "note": "Reports six car models associated with official screenshot campaign; source is secondary."
+      },
+      {
+        "tier": "community discussion",
+        "url": "https://www.reddit.com/r/GTA6/comments/1w7ow99/my_entire_gta_6_preview_summarized/",
+        "note": "Community summary of preview details; cross-check with primary reporting."
+      },
+      {
+        "tier": "community video",
+        "url": "https://www.youtube.com/watch?v=942eypyLLQc",
+        "note": "Unofficial driving physics analysis."
+      },
+      {
+        "tier": "community repository",
+        "url": "https://github.com/jerrysf/gta6-atlas",
+        "note": "Fan project; useful discovery tool, not primary confirmation."
+      },
+      {
+        "tier": "social discussion",
+        "url": "https://x.com/GTASixInfo/status/2094009341552754768",
+        "note": "Social summary of vehicle theft details; verify against reviews."
+      }
+    ],
+    "limitations": [
+      "Rockstar has not published a full vehicle roster or official performance table.",
+      "Fan-identification databases disagree on model names and how to count variants.",
+      "Review impressions of cars and motorcycles are not uniform; preserve attribution.",
+      "Vehicle stats, top speeds, storage capacity, unlocks and exact upgrade effects not invented."
+    ]
+  },
+  "vehicles_boats_aircraft_helicopters_batch": {
+    "checked_at": "2026-11-18",
+    "scope": [
+      "boats",
+      "aircraft",
+      "helicopters"
+    ],
+    "evidence_policy": "Rockstar text/media, reviewer observations, community interpretation and unverified leaks kept distinct. No roster counts or performance stats are inferred.",
+    "official_named_watercraft": [
+      "Shitzu Squalo",
+      "Crest Kayak"
+    ],
+    "boats": {
+      "press_observations": [
+        "IGN review describes uniquely named/detailed boats and launch/reload on trailers.",
+        "Kotaku reviewer describes choosing an alternate boat during a chase and the objective/dialogue responding."
+      ],
+      "unknowns": [
+        "full watercraft list",
+        "stats, speed, boat handling and customization",
+        "exact trailer/ramp conditions"
+      ]
+    },
+    "aircraft": {
+      "press_observations": [
+        "Creative Bloq review reports flyable planes and helicopters, with responsiveness differing by vehicle.",
+        "Kotaku, ScreenHub and NME reviews refer to aircraft in play."
+      ],
+      "unknowns": [
+        "official aircraft roster and exact model names",
+        "full controls, flight assists, landing access, performance values"
+      ]
+    },
+    "helicopters": {
+      "press_observations": [
+        "IGN review notes rotor-downwash water detail and reports helicopters vulnerable to tail-rotor damage.",
+        "Creative Bloq reviewer describes one stolen helicopter as difficult to control, spinning into swamp; one reviewer experience only."
+      ],
+      "unknowns": [
+        "model list, damage zones/hitbox values, ownership/unlocks, speed and armor stats"
+      ]
+    },
+    "community_watch": [
+      "GTAForums maritime wishlist thread includes wishes/speculation about boats, trailers, anchors and mooring.",
+      "Reddit aviation discussions are pre-release opinions and not evidence of controls.",
+      "YouTube vehicle recaps are fan analyses; checked against official footage rather than used as primary proof.",
+      "GitHub GTA6 Atlas is a fan discovery/map tool and not an authoritative vehicle roster.",
+      "X image/VFX analysis is fan commentary, not confirmation of internal physics implementation."
+    ],
+    "sources": [
+      {
+        "tier": "official primary",
+        "url": "https://www.rockstargames.com/VI/editions",
+        "note": "Names Shitzu Squalo and related content; also edition vehicle material."
+      },
+      {
+        "tier": "official primary",
+        "url": "https://www.rockstargames.com/VI/an-extended-look",
+        "note": "PS5 in-game footage; visual source, not an item database."
+      },
+      {
+        "tier": "press review",
+        "url": "https://www.ign.com/articles/grand-theft-auto-vi-review",
+        "note": "Boats, trailers, helicopter damage/tail rotor and water downwash; attributed reviewer observations."
+      },
+      {
+        "tier": "press review",
+        "url": "https://www.creativebloq.com/reviews/gta-6-review-holy-sh-t-its-good",
+        "note": "Reports aircraft flyable and vehicle response varies; one helicopter felt uncontrollable to reviewer."
+      },
+      {
+        "tier": "press review",
+        "url": "https://kotaku.com/grand-theft-auto-6-the-kotaku-review-2000757842",
+        "note": "Water/aircraft vehicles and an adaptive boat pursuit in reviewer experience."
+      },
+      {
+        "tier": "press review",
+        "url": "https://www.nme.com/reviews/game-reviews/grand-theft-auto-6-best-games-ever-made-3976226",
+        "note": "Aircraft pursuit/flying mission references, reviewer experience."
+      },
+      {
+        "tier": "community forum",
+        "url": "https://gtaforums.com/topic/1000759-maritime-and-boating-discussion-and-wishlist-thread/",
+        "note": "Community wishes and speculation; not confirmation."
+      },
+      {
+        "tier": "community forum",
+        "url": "https://www.reddit.com/r/GTA6/comments/1qvxhnp/how_accurate_do_we_think_aviation_will_be_in_gta_6/",
+        "note": "Pre-release aviation discussion; not evidence of actual controls."
+      },
+      {
+        "tier": "community video",
+        "url": "https://www.youtube.com/watch?v=oy_03JM_zYc",
+        "note": "Unofficial trailer vehicle breakdown; names need verification."
+      },
+      {
+        "tier": "community repo",
+        "url": "https://github.com/jerrysf/gta6-atlas",
+        "note": "Fan map/index tool; not Rockstar documentation."
+      },
+      {
+        "tier": "social discussion",
+        "url": "https://x.com/hectorVFX/status/2070482071751913831",
+        "note": "Fan technical interpretation of water appearance; not developer-confirmed implementation."
+      }
+    ],
+    "limitations": [
+      "Many vehicle rosters list inferred names and leak-derived entries as confirmed; the pages omit them or label them as secondary.",
+      "Older Reddit/GTAV advice about flight or boat controls is not transferred to GTA VI because control schemes may differ.",
+      "No best aircraft/boat ranking, top speed or precise damage statistic published without in-game test data."
+    ]
+  },
+  "gameplay_core_police_batch": {
+    "checked_at": "2026-11-18",
+    "scope": [
+      "gameplay_hub",
+      "mechanics",
+      "police_heat"
+    ],
+    "evidence_policy": "Distinguish Rockstar first-party footage/statements from reviewer play experiences, fan summaries, databases and unverified claims. Do not present precise UI interpretations or strategy as universal when reports disagree.",
+    "mechanics": {
+      "review_observations": [
+        "RPGamer review describes Strength, Stamina, weight/nutrition/body stats and Focus development.",
+        "Reviews describe Focus as slow-time/precision utility; exact duration and advancement values not asserted.",
+        "Reviews discuss sleep, food, exercise and profile changes; importance and consequences vary by player report."
+      ],
+      "limitations": [
+        "Criminal Profile should not be collapsed into wanted level or a simple good/evil bar.",
+        "No exact optimal daily routine or stat caps entered without controlled test data."
+      ]
+    },
+    "police": {
+      "official_primary": "Rockstar Extended Look is captured entirely from PS5 in-game footage; shows wanted HUD and police/search sequence.",
+      "review_observations": [
+        "Press Start guide quotes Rockstar VP of Technology David Hynd on search based on clues; author reports stars/search/helicopter/dog behaviour in their playthrough.",
+        "NPR reviewer reports cameras/witness clothing and vehicle descriptions; violent crimes produce wider searches.",
+        "RPGamer and TrueAchievements reviews describe persistent search areas and changing outfit/vehicle; reviewers vary in details."
+      ],
+      "recommended_principles": [
+        "Distinguish active line-of-sight chase from ongoing search/heat after breaking sight.",
+        "Check HUD/map for the game’s current state; do not rely solely on minimap cop markers.",
+        "Plan route and contingency before a robbery; reducing exposure before crime is lower risk than assuming one post-chase trick clears all evidence.",
+        "Address only the identification clues the player can actually see; avoid treating one change as a universal reset.",
+        "Cut losses when alarms/search forces arrive instead of staying for marginal extra loot (reviewer anecdote)."
+      ],
+      "limitations": [
+        "Guide sites disagree on exact star colors, icons and whether a single action removes a wanted star.",
+        "Claims about exact timers, unreported-crime guarantees, dog scent/wind, police spawn rules and precise unlocks require further in-game verification."
+      ]
+    },
+    "sources": [
+      {
+        "tier": "official primary",
+        "url": "https://www.rockstargames.com/VI/an-extended-look",
+        "note": "Officially says footage captured entirely in-game on PS5; visual evidence, not a full mechanics manual."
+      },
+      {
+        "tier": "press interview/guide",
+        "url": "https://press-start.com.au/guides/2026/11/18/how-gta-6s-reinvented-wanted-system-works-and-how-to-stay-out-of-trouble/",
+        "note": "18 Nov guide includes quote from Rockstar VP Technology David Hynd and reviewer’s 60+ hour police observations."
+      },
+      {
+        "tier": "press review",
+        "url": "https://www.npr.org/2026/11/18/nx-s1-6040326/grand-theft-auto-6-review-vice-city-masterpiece",
+        "note": "Witness descriptions and search escalation in reviewer account."
+      },
+      {
+        "tier": "press review",
+        "url": "https://rpgamer.com/review/grand-theft-auto-vi-review/",
+        "note": "Character attributes, progression, nutrition and police search observations."
+      },
+      {
+        "tier": "press review",
+        "url": "https://www.trueachievements.com/news/grand-theft-auto-6-review",
+        "note": "Six-star system and outfit/car evidence in review; attribute to reviewer."
+      },
+      {
+        "tier": "press review + developer interviews",
+        "url": "https://gamingboulevard.com/2026/11/gta6/",
+        "note": "Reviewer reports prolonged playthrough; quotes Rockstar design director on criminal-profile consequences and technology VP on subtle NPC/partner effects. Attribute review observations and interview quotes distinctly."
+      },
+      {
+        "tier": "press review",
+        "url": "https://www.gamingsocialclub.ca/2026/11/18/grand-theft-auto-vi-review/",
+        "note": "Robbery, carjacking and escaping pursuits commentary."
+      },
+      {
+        "tier": "community discussion",
+        "url": "https://www.reddit.com/r/GTA6/comments/1w7ow99/my_entire_gta_6_preview_summarized/",
+        "note": "Community summary of preview; cross-check with first-party and press reporting."
+      },
+      {
+        "tier": "community video",
+        "url": "https://www.youtube.com/watch?v=KYGeq98DQjo",
+        "note": "Independent wanted system explainer, Aug 2026; not primary evidence."
+      },
+      {
+        "tier": "community forum",
+        "url": "https://www.reddit.com/r/GTA6/comments/1w1orob/gta6_wanted_system_explained/",
+        "note": "Community UI interpretation; not all state labels are authoritative."
+      },
+      {
+        "tier": "community repository",
+        "url": "https://github.com/Geckomacabre/GTA-VI-Inspired-HUD-for-FiveM/pull/22",
+        "note": "Fan HUD implementation based on interpretation; not Rockstar documentation."
+      },
+      {
+        "tier": "social discussion",
+        "url": "https://x.com/GTA6Alerts",
+        "note": "Signal account for social media leads; not proof."
+      }
+    ],
+    "research_caveats": [
+      "GitHub search mostly surfaced prototypes, unrelated GTA V mods, or fan recreations; do not cite them as gameplay evidence.",
+      "Some guide pages contain precise unsupported claims and contradictory UI taxonomies; pages avoid precise details unless attributable.",
+      "Never recommend harming/harassing NPCs as an evasion technique; prefer planning, changing route/appearance and leaving the search area."
+    ]
+  },
+  "visuals_map_remediation_2026_11_18": {
+    "map_tools": [
+      {
+        "url": "https://sixintelhq.com/map",
+        "tier": "community interactive map",
+        "note": "Search, filters, local checklist described by site; all prelaunch pins provisional."
+      },
+      {
+        "url": "https://map-6.com/en",
+        "tier": "community interactive map",
+        "note": "Interactive project; map sources/credits should be checked."
+      },
+      {
+        "url": "https://gta6map.io/#map",
+        "tier": "community map",
+        "note": "Independent interactive map; counts/pins not official."
+      },
+      {
+        "url": "https://gta-6-map.com/",
+        "tier": "community map",
+        "note": "Independent atlas; points attributed to community base."
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/media/screenshots",
+        "tier": "official primary image gallery",
+        "note": "138 official screenshots; distinct directly downloaded selected JPEGs credited on pages."
+      }
+    ],
+    "official_images_local": [
+      {
+        "path": "assets/images/official/official_weapon_variants.jpg",
+        "source_file": "ULTIMATE_EDITION_WEAPON_VARIANTS_01.12licq0_o7mb5.jpg",
+        "item": "Girardi ES9 and Klose K17 custom variants"
+      },
+      {
+        "path": "assets/images/official/official_morgan_revolvers.jpg",
+        "source_file": "ULTIMATE_EDITION_HAWK_AND_LITTLE_MORGAN_REVOLVERS_01.0~3pdc~~sing4.jpg",
+        "item": "Hawk & Little Morgan Revolvers"
+      },
+      {
+        "path": "assets/images/official/official_grotti_cheetah.jpg",
+        "source_file": "ULTIMATE_EDITION_GROTTI_CHEETAH_01.0a.wy3s_ogjey.jpg",
+        "item": "95 Grotti Cheetah"
+      },
+      {
+        "path": "assets/images/official/official_dinka_enduro.jpg",
+        "source_file": "ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_02.0-2n5rm9n8.rq.jpg",
+        "item": "Dinka Enduro"
+      },
+      {
+        "path": "assets/images/official/official_principe_alvino_v1.jpg",
+        "source_file": "Jason_Duval_11.019l5gj6~0~0v.jpg",
+        "item": "Principe Alvino V1 scene"
+      },
+      {
+        "path": "assets/images/official/official_crest_kayak.jpg",
+        "source_file": "ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_03.0c9.qtpdi.tf..jpg",
+        "item": "Crest Kayak"
+      },
+      {
+        "path": "assets/images/official/official_shitzu_squalo.jpg",
+        "source_file": "ULTIMATE_EDITION_SQUALO_01.0cim7hj58ypb1.jpg",
+        "item": "Shitzu Squalo"
+      },
+      {
+        "path": "assets/images/official/official_vapid_buggy.jpg",
+        "source_file": "ULTIMATE_EDITION_VAPID_BUGGY_01.0jxfiql~371ik.jpg",
+        "item": "67 Vapid Dominator Buggy"
+      },
+      {
+        "path": "assets/images/official/official_vapid_stanier.jpg",
+        "source_file": "VINTAGE_VICE_CITY_PACK_VAPID_STANIER_01.004m_8d1~qngy.jpg",
+        "item": "55 Vapid Stanier"
+      },
+      {
+        "path": "assets/images/official/official_helicopter_vice_city.jpg",
+        "source_file": "Vice_City_27.0d2e~w_r93hmh.jpg",
+        "item": "helicopter seen above Vice City; model unconfirmed"
+      },
+      {
+        "path": "assets/images/official/official_gunfire_scene.jpg",
+        "source_file": "Jason_Duval_17.0tp7hiuz.e385.jpg",
+        "item": "visible rifle; model not confirmed"
+      },
+      {
+        "path": "assets/images/official/official_airliner_vice_city.jpg",
+        "source_file": "Vice_City_01.135x56yoeu.6t.jpg",
+        "item": "airliner visible; model not confirmed"
+      }
+    ],
+    "image_dedup_audit": "Found repeated displayed sources in root index footer (map artwork), secondary-cast page illustration, and weapons index/explosives hero. Removed decorative and redundant duplicates; explosive hero now uses distinct unused asset. Official screenshot assets (now 12) are unique page uses; future assets must enter ledger and pass image-use uniqueness audit.",
+    "remaining_scope": "This is the first sourced-image pass, not yet an exhaustive item-by-item database for every weapon, aircraft, vehicle or collectible. Do not invent names/images for unconfirmed objects. Continue collecting distinct Rockstar screenshots, with rights attribution, and post-launch in-game screenshots for collectibles.",
+    "press_screenshot_local": {
+      "path": "assets/images/press/reviewer_seahawk_jetski.jpg",
+      "source": "https://www.digitalspy.com/tech/a74452071/gta6-review/",
+      "credit": "Rockstar Games (screenshot by Digital Spy)",
+      "use": "SeaHawk jetski visible; actual press-captured game image, used once in boat guide."
+    }
+  },
+  "collectibles_launchday_research": {
+    "checked_at": "2026-11-18",
+    "status": "review observations available; no exhaustive Rockstar collectible index or coordinates validated in this build",
+    "review_observations": [
+      {
+        "url": "https://www.digitalspy.com/tech/a74452071/gta6-review/",
+        "tier": "reviewer direct experience",
+        "note": "18 Nov review states author played 200+ hours; reports hundreds of randomly placed collectible cards and phone scans/study of cars, landmarks, street art, curiosities and magazines, with cosmetic rewards. Also reports magazines revealing points of interest."
+      },
+      {
+        "url": "https://www.polygon.com/gta-6-review/",
+        "tier": "reviewer direct experience",
+        "note": "18 Nov review mentions collectible trading cards, scannable landmarks and numerous collectibles; separate reviewer observation."
+      },
+      {
+        "url": "https://www.vice.com/en/article/gta-6-review/",
+        "tier": "reviewer direct experience",
+        "note": "18 Nov review describes key valuables and rare weapons/vehicles from illegal operations and gang hideouts; attribution to author."
+      }
+    ],
+    "guide_policy": "Do not invent positions, counts or item artwork. A review observation establishes what that author reports seeing, not a Rockstar official catalog. Publish an individual collectible only with an in-game image, exact name, context and verification provenance.",
+    "community_research": [
+      "Reddit search returned no credible launch-day item-level verified map as of this check; low-quality/general discussion kept as lead only.",
+      "YouTube search surfaces pre-launch reconstructions, launch countdowns and map explainers; verify each pin in game before adopting.",
+      "GitHub fan atlas projects document empty/placeholder collectible datasets pending launch verification; see jerrysf/gta6-atlas and rhyovar/leonida-dispatch search results."
+    ],
+    "methods": [
+      "Scan or study objects when the game presents a prompt; preserve the exact name and reward shown.",
+      "Keep found/not found separate from unverified/reported; do not mark community reconstruction pins as confirmed.",
+      "The local image library uses no generic substitutes for unphotographed collectibles."
+    ]
+  },
+  "launch_veille_batch_2026_11_18": {
+    "checked_at": "2026-11-18",
+    "scope": [
+      "official Rockstar Newswire/site",
+      "launch reviews",
+      "YouTube",
+      "Reddit/forums",
+      "GitHub mapping projects"
+    ],
+    "official_sources": [
+      {
+        "url": "https://www.rockstargames.com/newswire/article/5171972o3ak5oa/pre-order-grand-theft-auto-vi-on-june-25",
+        "note": "Rockstar says single-player experience; PS5 and Xbox Series X|S; Vintage Vice City Pack conditions and Ultimate Edition extras."
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/music",
+        "note": "Official music hub checked: six station previews, 34-track album, original score by Justice announced for Dec 11 with 30 tracks."
+      },
+      {
+        "url": "https://www.rockstargames.com/VI/editions",
+        "note": "Official edition names, Standard digital/code-in-box and Ultimate digital; official listed premium content. Regional prices should be verified directly at checkout."
+      },
+      {
+        "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
+        "note": "Preload starts Nov 10, up to 212 GB depending on device."
+      },
+      {
+        "url": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations",
+        "note": "Six named preview stations; Rockstar says radio and on-demand podcasts are available in vehicles and on foot using headphones/earbuds."
+      },
+      {
+        "url": "https://store.playstation.com/fr-fr/product/EP1004-PPSA01547_00-GTAVISTANDARD001",
+        "note": "PlayStation Store FR consulté le 18/11 affiche Standard à 79,99 €, page indique solo, précommande numérique et conditions d’offre; montant régional, snapshot daté."
+      },
+      {
+        "url": "https://store.playstation.com/fr-fr/product/EP1004-PPSA01547_00-GTAVIULTIMATE001",
+        "note": "PlayStation Store FR consulté le 18/11 affiche Ultimate à 99,99 €, contenus numériques/bonus. Conditions GTA+ et Vintage Vice City Pack varient selon l’offre/plateforme."
+      }
+    ],
+    "launch_review_tactics": [
+      {
+        "url": "https://www.thesixthaxis.com/2026/11/18/grand-theft-auto-6-review/",
+        "tier": "reviewer observation",
+        "note": "Weapon stash and carried limits, long guns visible, aim assist settings, moving between cover, focus mode detecting valuables/enemies, car theft tools; tactics credited to reviewer, not a complete manual."
+      },
+      {
+        "url": "https://www.independent.co.uk/extras/indybest/gadgets-tech/video-games-consoles/grand-theft-auto-6-review-b3085529.html",
+        "tier": "reviewer observation",
+        "note": "Reviewer reports flexible story progress and additional tools becoming available later; relationship activities and choices discussed as subjective review notes."
+      },
+      {
+        "url": "https://www.digitalspy.com/tech/a74452071/gta6-review/",
+        "tier": "reviewer observation",
+        "note": "200+ hours claimed by author; scans, magazine leads, inventory, evidence and outfit/vehicle changes described in review."
+      }
+    ],
+    "community_sources": [
+      {
+        "url": "https://github.com/jerrysf/gta6-atlas",
+        "tier": "community project",
+        "note": "Repository says mission and collectible datasets are intentionally empty pending in-game verification; map base is a fan reconstruction."
+      },
+      {
+        "url": "https://github.com/greventas-web/gta-companion/pull/44",
+        "tier": "community PR, Nov 18",
+        "note": "Proposes community pins based on launch guides and a pre-unlock coordinate base; remains community data, not official Rockstar map and not independently validated by this guide."
+      },
+      {
+        "url": "https://www.reddit.com/r/GTA6/",
+        "tier": "discussion lead only",
+        "note": "Search did not surface a reliable, item-level corroborated collectible map; subreddit posts remain unverified."
+      },
+      {
+        "url": "https://www.youtube.com/@RockstarGames",
+        "tier": "official video source",
+        "note": "Official Rockstar channel; no fan countdown or leaked code video treated as source."
+      }
+    ],
+    "editorial_policy": "Keep Rockstar announcements, reviewer gameplay reports, community maps, rumors and unverified social posts separated. Do not publish codes, prices, locations, total counts or exploits as verified without direct primary evidence and reproducible corroboration."
+  },
+  "gameplay_launch_tips_2026_11_18": {
+    "checked_at": "2026-11-18",
+    "primary_review_guides": [
+      {
+        "url": "https://www.gamespot.com/articles/gta-6-tips-everything-i-wish-i-knew-before-i-started-playing/",
+        "tier": "reviewer guide, retail-version play",
+        "note": "13 tips: fitness, Focus, RydeMe/transit/character switch, Waink vehicle security, shop security maps, snap gun access, random safe codes, bank/loan dye packs and Chapter 3 jammer, witness/evidence factors, fences, stash bags and loss risks, aim attachments, reminders, non-lethal hits, manual saves."
+      },
+      {
+        "url": "https://www.gamespot.com/reviews/grand-theft-auto-6-review/",
+        "tier": "reviewer firsthand, 60+ hours",
+        "note": "World systems, transit, emergent encounters, driving/crashes, narrative and everyday open world observations."
+      },
+      {
+        "url": "https://www.thesixthaxis.com/2026/11/18/grand-theft-auto-6-review/",
+        "tier": "reviewer firsthand",
+        "note": "Limited loadout, evidence/appearance/vehicle changes, combat cover, weapon stash, robberies, mission recovery."
+      },
+      {
+        "url": "https://www.forbes.com/sites/paultassi/2026/11/18/gta-6-review-a-perfect-crime/",
+        "tier": "reviewer firsthand",
+        "note": "Robberies, gang operations, vehicle trunk, bikes, criminal profile; subjective tactics, not universal optimum."
+      },
+      {
+        "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+        "tier": "launch guide",
+        "note": "Reports 61 cheats; codes unlocked after story and challenges; using codes disables saving/trophies for session. Example inputs cross-check with PowerPyx and Insider Gaming."
+      },
+      {
+        "url": "https://www.powerpyx.com/gta-6-all-cheats/",
+        "tier": "launch guide",
+        "note": "Reports 61 cheats across five categories and supports example inputs/unlock requirements; not Rockstar official."
+      },
+      {
+        "url": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+        "tier": "launch checklist",
+        "note": "Checklist opens after story, prior progress counts, free-roam cleanup; reports categories and quotas. Its introduction and detailed section differ on vehicle total; use detailed base-model target only and flag discrepancy."
+      },
+      {
+        "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+        "tier": "launch trophy guide",
+        "note": "Reports 55 offline trophies, no online trophies, hard-save recommendation, and uncertainty around Chapter 1 balcony meditation for one trophy."
+      }
+    ],
+    "community_research": [
+      {
+        "url": "https://www.youtube.com/watch?v=OawTA9bM6LY",
+        "tier": "pre-launch commentary, not gameplay verification",
+        "note": "Money plan video dated Nov 15 labels claims confirmed/reported/author advice; predates retail testing and explicitly qualifies uncertain ATM and cash-loss details. Used only as an example of confidence labels, not for game mechanics."
+      },
+      {
+        "url": "https://www.reddit.com/r/GTA6/",
+        "tier": "social discussion search",
+        "note": "Search returned low-relevance/older or general discussion; no corroborated strategy from current verified players extracted. Do not cite as mechanics proof."
+      },
+      {
+        "url": "https://github.com/TheCoolmanX/awesome-gta-6",
+        "tier": "community resource index",
+        "note": "Curated link index for maps, guides, checklists; a directory is not validation of listed data."
+      },
+      {
+        "url": "https://github.com/jerrysf/gta6-atlas",
+        "tier": "community mapping/tracker project",
+        "note": "Its workflow labels entries by verification status and requires post-launch verification; no raw guesses adopted as facts."
+      },
+      {
+        "url": "https://x.com/videotech/status/2093114246976467109",
+        "tier": "X repost of preview notes, Aug 27 2026",
+        "note": "Older preview summary; not treated as launch verification where GameSpot/reviews now provide direct retail observations."
+      },
+      {
+        "url": "https://www.reddit.com/r/GTA6/",
+        "tier": "Reddit search Nov 18 2026",
+        "note": "Search returned older/general discussion, no recent player-authored corroborated guide for these specific systems; not used for mechanics."
+      }
+    ],
+    "editorial_policy": "Use actionable guide information only when attributable to a current retail-version walkthrough/review. Keep an article author’s advice distinct from tested game rules; preserve discrepancies (vehicle totals, trophy missables, 100% checklist vs trophy thresholds). Social posts and prelaunch videos remain leads, not proof."
+  },
+  "gameplay_illustrations_generated_2026_11_18": {
+    "status": "generated JPG editorial illustration, not authentic game screenshots",
+    "images": [
+      {
+        "path": "assets/images/gameplay/economy_planned_robbery.jpg",
+        "format": "JPEG",
+        "dimensions": "1672x941",
+        "use_once": "pages/gameplay/economie.html",
+        "description": "Rainy night corner shop and anonymous figure, planned robbery atmosphere."
+      },
+      {
+        "path": "assets/images/gameplay/combat_cover_tactics.jpg",
+        "format": "JPEG",
+        "dimensions": "1672x941",
+        "use_once": "pages/gameplay/combat.html",
+        "description": "Anonymous figures behind cover in wet neon alley, tactical atmosphere."
+      },
+      {
+        "path": "assets/images/gameplay/driving_coastal_handling.jpg",
+        "format": "JPEG",
+        "dimensions": "1672x941",
+        "use_once": "pages/gameplay/conduite.html",
+        "description": "Unbranded sedan on coastal causeway at sunset, driving guide artwork."
+      }
+    ],
+    "policy": "Each image appears exactly once in local HTML. No generated PNG or SVG created."
+  },
+  "narrative_trophies_secrets_research_2026_11_18": {
+    "checked_at": "2026-11-18",
+    "trophies": {
+      "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+      "note": "55 offline trophies, 0 online; chapter-one meditation might be missable but source says requirement uncertain; hard saves recommended because it reports no mission replay."
+    },
+    "completion": {
+      "url": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+      "note": "100% checklist appears after story, progress accumulates earlier; detailed quotas are guide data, not Rockstar official. The source has an inconsistent vehicle total in overview vs detail."
+    },
+    "endings": {
+      "url": "https://www.independent.co.uk/extras/indybest/gadgets-tech/video-games-consoles/grand-theft-auto-6-review-b3085529.html",
+      "note": "Reviewer says multiple endings influenced by choices, relationship, criminal profile and investments; this guide does not claim count or route."
+    },
+    "easter_eggs": "Search surfaced pre-launch speculation and low-confidence post-launch item lists, not enough corroborated by primary or multiple retail sources for this guide to validate specific locations. Page publishes an evidence protocol, not a fake checklist.",
+    "community_scope": {
+      "reddit": "Search results are low relevance or speculative for current Easter egg locations; not used to confirm mechanics.",
+      "youtube": "Pre-launch trailer analysis and previews surfaced; no current full gameplay Easter egg walkthrough with sufficiently corroborated locations validated for this page.",
+      "github": "Public map and tracker repositories are useful for workflow/verification labels but not proof of a specific in-game secret."
+    },
+    "editorial_note": "Avoid inventing the number of story endings, secret identities, Easter egg locations or trophy missability. Attribute reviewer statements and preserve uncertainty."
+  },
+  "launch_guides_cards_and_times_2026_11_18": {
+    "checked_at": "2026-11-18",
+    "beginner_guides": [
+      {
+        "url": "https://www.videogameschronicle.com/guide/gta-6-beginners-guide-6-tips-you-need-to-know-before-starting-gta-6/",
+        "tier": "journalistic beginner guide",
+        "note": "Reports early cash hidden under Jason’s floorboards before banking; map/minimap for interior navigation; Focus and feeding Dolores noted. Attributed to VGC, not official rules."
+      },
+      {
+        "url": "https://www.gamespot.com/articles/gta-6-tips-everything-i-wish-i-knew-before-i-started-playing/",
+        "tier": "GameSpot launch guide",
+        "note": "Fitness, meals/rest, transit and two-person robberies; cautions on early targets/trapped bags and post-story risks; practical advice attributed, not universal mechanics."
+      },
+      {
+        "url": "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+        "tier": "Kotaku spoiler-free launch guide",
+        "note": "Food/drink buffs and everyday interactions related to Focus/profile described as tips; kept attributed and not quantified."
+      }
+    ],
+    "card_sets": {
+      "url": "https://www.powerpyx.com/gta-6-all-collectible-card-sets-locations/",
+      "tier": "third-party launch guide; not Rockstar official",
+      "note": "PowerPyx reports 18 sets/480 unique cards; 3 completed sets for Don’t Touch My Deck and 15 for its 100% checklist; sale preserves collection progress, color variants count separately, duplicates do not. Checked Flamingos detail page contains numerous ? entries, so guide locations are not assumed complete."
+    },
+    "release_time": {
+      "rockstar_support": "https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s",
+      "playstation": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
+      "note": "Rockstar Support states digital release at midnight local time Nov 19, 2026, in all regions/platforms. PlayStation says rolling country launch begins 00:00 NZDT; date variation in UTC is timezone display, not a global Nov 18 date."
+    },
+    "editorial_policy": "Keep hands-on reviewer observation, journalist guide advice, official release timing, and third-party checklist data distinct. Do not assert unverified counts, locations or mechanics as Rockstar-confirmed."
+  },
+  "gameplay_beginner_illustration_2026_11_18": {
+    "status": "generated high-quality cinematic photorealistic JPG editorial artwork",
+    "path": "assets/images/gameplay/beginner_first_morning.jpg",
+    "format": "JPEG",
+    "use_once": "pages/guide/astuces.html",
+    "alt_policy": "Explicitly labels generated artwork, not an authentic GTA VI screenshot."
+  },
+  "launch_day_watch_2026_11_18": {
+    "checked_at": "2026-11-18",
+    "playstation_support": {
+      "url": "https://www.playstation.com/en-us/support/games/gta-vi-game/",
+      "tier": "official platform support",
+      "note": "Official GTAVI troubleshooting page recommends latest PS5 system software, sufficient storage, correct owning account/console sharing, resume/retry download, check service status, restore licenses, and Safe Mode cache/database steps. It does not name firmware 26.07-14.23.00 in the fetched page."
+    },
+    "firmware_version_reporting": {
+      "url": "https://mashable.com/entertainment/gta-6-release-day-ps5-update",
+      "tier": "secondary report quoting PlayStation Support on X",
+      "note": "Reports PlayStation Support said system software 26.07-14.23.00 is required before play; Sony public patch note is described as security fixes. Preserve distinction: official generic troubleshooting page fetched says latest system software, without version number."
+    },
+    "community_launch": [
+      {
+        "url": "https://www.reddit.com/r/xbox/comments/1xzc68e/gta_vi_discussionreview_megathread/",
+        "tier": "Reddit anecdote, unverified",
+        "note": "Thread contains users saying Xbox location change to New Zealand worked and a separate user reporting crash at opening cinematic after changing region. Do not infer cause or offer as official, guaranteed, or endorsed method."
+      },
+      {
+        "url": "https://gtaforums.com/topic/1008031-grand-theft-auto-vi-launch-bug-reports-and-common-issues-thread-ps5xbox-series-xs/",
+        "tier": "community forum thread",
+        "note": "Opening post is a request for detailed bug reports/screenshots/video; at the checked first post it does not establish a recurring bug or fix."
+      },
+      {
+        "url": "https://gtaforums.com/topic/1007998-no-story-spoilers-grand-theft-auto-vi-first-impressions-thread/",
+        "tier": "community spoiler-moderated first impressions thread",
+        "note": "Thread permits gameplay/settings/platform impressions but prohibits story spoilers; useful for user-safe orientation, not verified walkthrough data."
+      }
+    ],
+    "launch_walkthrough": {
+      "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
+      "tier": "third-party launch walkthrough",
+      "note": "Reports five chapters, some optional missions with hourglass icon are time-sensitive, but says they do not block trophy or 100% completion; pending mission list via pink storybook icon; manual saves recommended since it reports no mission replay. All presented as PowerPyx guide data, not Rockstar rules."
+    },
+    "completion_challenges": {
+      "url": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+      "tier": "third-party launch guide",
+      "note": "Reports 80 challenges across 8 groups, 50 for a trophy and 70 for its 100% checklist. Added to local tracker as attributed quotas only."
+    },
+    "github_map_review": {
+      "url": "https://github.com/greventas-web/gta-companion/pull/44",
+      "tier": "community PR, not merged/official map",
+      "note": "PR says some points were added when a launch-day source names the place and gtadb already has a position or two independent sources agree. It states the base coordinate dump is pre-unlock; pins remain fan data, not game verification."
+    },
+    "youtube_review": {
+      "urls": [
+        "https://www.youtube.com/watch?v=SJtQRxbFvFg",
+        "https://www.youtube.com/watch?v=dBEHa58yMuY",
+        "https://www.youtube.com/watch?v=yglAsEDggaE"
+      ],
+      "tier": "launch streams, not independently checked for detailed mechanics",
+      "note": "Search surfaced NZ-first-play streams and early-launch videos. They are live/recorded gameplay, but no transcript/frame-by-frame mechanical validation was conducted; no mechanics are sourced from them."
+    },
+    "editorial_policy": "No region-switch workaround is prescribed. Keep first posts and individual crash reports as anecdotal. For technical problems link to official platform troubleshooting, and date/version every guide-based count."
+  },
+  "interactive_features_batch_14": {
+    "checked_at": "2026-11-18",
+    "completed": [
+      "Browser-local 100% tracker with attributed PowerPyx quotas: 15/18 card sets, 200/277 base vehicles, 100/255 animals, 70/80 challenges; custom tasks; JSON export/reset.",
+      "Quiz expanded from 8 to 30 questions with per-answer evidence label/source, timer and local best score.",
+      "Beginner strategy page updated for hourglass-marked optional missions and pending-mission list per PowerPyx.",
+      "News page updated with official PS5 troubleshooting and cautious treatment of firmware report, Xbox-region anecdotes, Reddit and forum issues."
+    ],
+    "persistence": "localStorage only; no server-side collection.",
+    "image_audio": "No image/audio generated in this turn; JPG-only requirement remains satisfied."
+  },
+  "beginner_guides_update_2026_11_18": {
+    "checked_at": "2026-11-18",
+    "primary_guide_sources": [
+      {
+        "url": "https://www.videogameschronicle.com/guide/gta-6-beginners-guide-6-tips-you-need-to-know-before-starting-gta-6/",
+        "publisher": "VGC",
+        "observations": [
+          "cash stash under Jason bedroom floorboards before banking unlock",
+          "mini-map/building color cues for interiors",
+          "Focus door indicators as described by reviewer",
+          "feed Dolores for early Focus buff",
+          "mechanic roadside repairs after Just A Scratch; paid and not always available"
+        ],
+        "status": "journalistic guide; attribute, verify in player save"
+      },
+      {
+        "url": "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+        "publisher": "Kotaku",
+        "observations": [
+          "food and drink buffs",
+          "personal vehicle trunk for clothes and weapons",
+          "Focus for nearby events"
+        ],
+        "status": "journalistic spoiler-free tips; reviewer-derived"
+      },
+      {
+        "url": "https://www.techradar.com/gaming/gta-6-review",
+        "publisher": "TechRadar",
+        "observations": [
+          "personal vehicle preparation and trunk storage"
+        ],
+        "status": "review observation"
+      },
+      {
+        "url": "https://www.thesixthaxis.com/2026/11/18/grand-theft-auto-6-review/",
+        "publisher": "TheSixthAxis",
+        "observations": [
+          "Waink vehicle scan details and theft risk"
+        ],
+        "status": "review observation"
+      }
+    ],
+    "editorial_policy": "No guarantee of universal result; page labels media observations and avoids reproducing third-party screenshots. Unverified community techniques remain leads only."
+  },
+  "launch_day_update_2026_11_18_finalization": {
+    "checked_at": "2026-11-18 Europe/Paris",
+    "release_context": {
+      "rockstar_support": "https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s",
+      "note": "Rockstar says midnight local Nov 19 in all regions. By Nov 18 UTC, territories whose local clocks reached midnight had started playing; do not label all same-day reports as leaks or global release."
+    },
+    "launch_guide_sources": [
+      {
+        "url": "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+        "tier": "journalistic launch guide, review-derived",
+        "note": "Reports consumable buffs, Focus/event cues, car trunk outfits, Waink tracker scanning, underwater salvage for early cash, Scooter Bros paid retrieval/repair and station-side vehicle repair. Present only as Kotaku observations, not official guarantees."
+      },
+      {
+        "url": "https://www.videogameschronicle.com/guide/gta-6-beginners-guide-6-tips-you-need-to-know-before-starting-gta-6/",
+        "tier": "journalistic beginner guide",
+        "note": "Early-cash stash, interior/minimap cues and other mechanics are guide observations; attribute and test in a player save."
+      }
+    ],
+    "first_discoveries": [
+      {
+        "url": "https://gamersocialclub.ca/2026/11/18/grand-theft-auto-vi-where-to-find-and-use-the-easter-egg/",
+        "tier": "press guide, author reports firsthand retail gameplay",
+        "note": "Reports an oversized striped egg in a nest at a high radio tower, collectible and throwable with a full power meter for a short comic cutscene; says the tower also has a parachute/base-jump feature. Do not redistribute its screenshots; position/effect are attributed, not Rockstar-confirmed."
+      },
+      {
+        "url": "https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030",
+        "tier": "press liveblog relaying a player X clip",
+        "note": "Independently reports a player clip of an egg at a high radio tower thrown toward a real-estate agent. Supports circulation of the same discovery; not an official Rockstar statement."
+      }
+    ],
+    "launch_bugs": {
+      "url": "https://www.reddit.com/r/GTA6/comments/1xzc7el/gta_vi_launch_day_bugs_glitches_megathread/",
+      "tier": "community, individual reports, unverified",
+      "note": "Thread updated with individual reports: PS5 shutting off in prologue, black/infinite loading screens, touchpad map issue, pop-in/despawns, cutscene/audio sync, Series S strength-exercise input/jauge failure and lost progress after crashes. Anecdotes differ by platform/build and are not independently reproduced; no prevalence or fix is established. Ignore unverified advice to open/clean consoles; consult platform repair/support for repeated full shutdown."
+    },
+    "playstation_support": {
+      "url": "https://www.playstation.com/en-us/support/games/gta-vi-game/",
+      "tier": "official platform support",
+      "note": "Official troubleshooting page says check regional release availability, owning account/Console Sharing, download, free space, latest system software, PSN status; offers pause/resume, restore licenses and Safe Mode cache/database steps. It does not name 26.07-14.23.00."
+    },
+    "firmware_reporting": {
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/sony-issues-mandatory-ps5-system-update-to-play-gta-6-potentially-slowing-down-hackers-attempts-to-dump-rockstars-game/",
+      "tier": "secondary report quoting PlayStation Support US on X",
+      "note": "Reports version 26.07-14.23.00 is required; official patch note says security fixes. Claims about anti-piracy motivation are speculation and not attributed to Sony."
+    },
+    "metacritic_snapshot": {
+      "url": "https://www.metacritic.com/game/grand-theft-auto-vi/",
+      "tier": "dynamic critic-aggregate page",
+      "note": "Fetched Nov 18: 99 Metascore with 147 PS5 critic reviews shown at the time; score/count are dynamic, not Rockstar ratings. Removed stale ratingCount 100 from site structured data."
+    },
+    "community_and_video_scan": {
+      "github": "https://github.com/cleementt26/leonida-atlas",
+      "youtube": "https://www.youtube.com/@RockstarGames",
+      "note": "GitHub search surfaced community atlases with explicitly separate CC BY 4.0 source data/licensing; do not copy tiles without meeting license/attribution. YouTube search surfaced launch streams and early-access tutorials; no new mechanic was accepted from video titles alone without frame/transcript verification."
+    },
+    "collectibles": {
+      "cards": "https://www.powerpyx.com/gta-6-all-collectible-card-sets-locations/",
+      "flamingos": "https://www.powerpyx.com/gta-6-vice-city-flamingos-collectible-card-set-locations/",
+      "note": "Re-fetched Nov 18: guide reports 18 sets/480 unique cards and tracker path Progress > Collections > Collectible Cards. Its Flamingos list still has only three detailed positions among 24 (entries 18, 20, 23); do not fill question-mark entries."
+    },
+    "publication_technical_state": {
+      "static_pages": 54,
+      "local_images": "53 fichiers image JPG/JPEG; chaque asset est généré, sans capture officielle/presse locale. Tous les fichiers référencés sont utilisés; aucune référence PNG/SVG.",
+      "third_party_remote_assets": "Images externes absentes; YouTube est activé au clic, services tiers non contactés avant activation.",
+      "audit": "Liens et assets locaux vérifiés; JS syntaxe passe. Audit de publication bloque encore uniquement sur les coordonnées légales réelles et l’URL publique pour les canonicals/OG/sitemap.",
+      "unresolved": "Nom/statut/adresse/contact et responsable de publication doivent venir de l’éditeur; URL GitHub Pages ou domaine public encore à fournir."
+    },
+    "launch_reviews_and_performance": {
+      "gamespot": "https://www.gamespot.com/reviews/grand-theft-auto-6-review/",
+      "gamespot_note": "10/10 au relevé du 18/11; jugement critique, non officiel. L’auteur dit que conduire vite demande finesse.",
+      "kotaku_review_tips": "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+      "performance_report": "https://kotaku.com/grand-theft-auto-6-gta6-performance-framerate-ps5-xbox-series-x-s-2000758096",
+      "performance_note": "Kotaku résume une vidéo Digital Foundry : baisses mesurées en zones denses / scènes explosives; le test Series S atteint quelques secondes 18–19 fps. Presse et banc d’essai, pas fix logiciel vérifié ni expérience universelle.",
+      "digital_foundry_video": "https://www.youtube.com/watch?v=qsBU0bcpONA",
+      "score_policy": "Le score et les compteurs Metacritic/OpenCritic sont volatils : renvoyer vers les agrégateurs et dater chaque relevé."
+    },
+    "accessibility_and_spoilers": {
+      "accessibility_source": "https://caniplaythat.com/2026/11/18/early-looks-at-gta-vi-accessibility-features/",
+      "accessibility_tier": "secondary accessibility-focused report; writer explicitly says no review copy and that the list may be incomplete or some details may be off",
+      "reported_options": [
+        "subtitle/caption size and backgrounds, speaker labels, UI scale",
+        "tap/hold assistance and simplified minigames",
+        "aim and drive-by assistance",
+        "high contrast / Focus trail color, motion blur/camera effects, tinnitus-reduction audio, gore/dismemberment controls"
+      ],
+      "editorial_policy": "Attribute as reported options, not an official Rockstar settings inventory; tell readers to verify in their own menus and choose based on comfort.",
+      "spoiler_sources": [
+        "https://www.polygon.com/gta-6-out-now-spoiler-warning-new-zealand-release/",
+        "https://x.com/GTAVI_Countdown/status/2122113980348956978"
+      ],
+      "spoiler_policy": "Regional unlocks allow spoilers to circulate early; keyword muting, avoiding recommendations/comments and muting risky subreddits are community/media precautions, not guarantees or Rockstar settings."
+    }
+  },
+  "launch_day_research_update_2026_11_18": {
+    "updated": "2026-11-18",
+    "official": [
+      {
+        "claim": "GTA VI releases at midnight local on Nov 19, 2026 for PS5 and Xbox Series X|S.",
+        "source": "https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s",
+        "status": "Rockstar Support primary source"
+      },
+      {
+        "claim": "PS5 troubleshooting for downloads, launch timing, account sharing, restore licenses and Safe Mode; Rockstar installation page directs players to platform support.",
+        "source": "https://www.playstation.com/en-us/support/games/gta-vi-game/",
+        "status": "PlayStation primary source; does not establish a fix for all gameplay crashes"
+      }
+    ],
+    "press": [
+      {
+        "source": "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+        "published": "2026-11-18",
+        "notes": [
+          "food/drink effects and Focus",
+          "vehicle trunk outfits and reported police attention reduction",
+          "Focus for events/alarms",
+          "vehicle tracker indicator/Waink",
+          "exploration/underwater loot tips"
+        ],
+        "status": "reviewer observations, not Rockstar documentation"
+      },
+      {
+        "source": "https://www.gamespot.com/articles/5-best-things-to-do-first-in-gta-6/",
+        "published": "2026-11-18",
+        "notes": [
+          "suppressor recommendation",
+          "prioritize garages once unlocked",
+          "explore Key Lento side content early"
+        ],
+        "status": "journalistic guide, attributed and no plot details copied"
+      },
+      {
+        "source": "https://www.metacritic.com/game/grand-theft-auto-vi/",
+        "checked": "2026-11-18",
+        "notes": [
+          "PS5 99/100 et 147 critiques; Xbox Series X 99/100 et 14 critiques au relevé consulté le 18/11",
+          "scores et compteurs dynamiques, aucune note utilisateur disponible au relevé"
+        ],
+        "status": "snapshot primaire daté du 18/11; vérifier la fiche en direct avant toute republication"
+      },
+      {
+        "source": "https://www.gamespot.com/reviews/grand-theft-auto-6-review/",
+        "published": "2026-11-18",
+        "notes": [
+          "GameSpot donne 10/10; observations sur l’immersion, les détails et la conduite à vitesse élevée"
+        ],
+        "status": "opinion de critique, pas un fait officiel; attribuer"
+      },
+      {
+        "source": "https://kotaku.com/grand-theft-auto-6-gta6-performance-framerate-ps5-xbox-series-x-s-2000758096",
+        "published": "2026-11-18",
+        "notes": [
+          "Kotaku synthétise les mesures de Digital Foundry; baisses en scènes chargées, observations plus prononcées sur Series S"
+        ],
+        "status": "test de presse / mesures contextualisées, pas diagnostic de tous les joueurs ni solution technique"
+      }
+    ],
+    "community": [
+      {
+        "source": "https://www.reddit.com/r/GTA6/comments/1xzc7el/gta_vi_launch_day_bugs_glitches_megathread/",
+        "notes": [
+          "crashes/softlocks/black screens/audio/input reports in user posts"
+        ],
+        "status": "search-indexed user reports, not independently reproduced; Reddit fetch itself returned 403"
+      },
+      {
+        "source": "https://github.com/navanem/gta6-leonida-atlas",
+        "status": "community mapping tool; contributor data and coordinates are not Rockstar-confirmed"
+      },
+      {
+        "source": "https://www.youtube.com/@RockstarGames",
+        "status": "official channel; user-uploaded launch walkthroughs may contain spoilers and should not be treated as fixes without verification"
+      },
+      {
+        "source": "https://x.com/PlayStation",
+        "status": "social account monitored only as attributed reporting; no unverified social rumor upgraded to official fact"
+      },
+      {
+        "source": "https://www.youtube.com/watch?v=iBs-wMYMd9k",
+        "creator": "GamingBolt",
+        "published": "2026-11-18",
+        "notes": [
+          "settings walkthrough: aim mode/assist, controls, action assists, map icon size, GPS voice, camera shake, projectile arc"
+        ],
+        "status": "secondary video guide, not official documentation; summaries attributed and users should confirm the available options in-game"
+      }
+    ],
+    "publication_note": "On GitHub Pages, the workflow obtains the effective base_url, rewrites absolute SEO URLs and runs audits before uploading the static artifact. Publisher/contact legal details remain owner-provided.",
+    "accessibility": {
+      "source": "https://caniplaythat.com/2026/11/18/early-looks-at-gta-vi-accessibility-features/",
+      "tier": "accessibility-focused media report; writer had not received a review copy and warns details may be incomplete",
+      "notes": [
+        "reports subtitle/caption size and backgrounds, UI scale, tap/hold assists, simplified minigames, high contrast, Focus colorblind settings and tinnitus reduction",
+        "site article labels these as reported and asks players to confirm menus"
+      ]
+    },
+    "spoilers": {
+      "press_source": "https://www.polygon.com/gta-6-out-now-spoiler-warning-new-zealand-release/",
+      "community_source": "https://x.com/GTAVI_Countdown/status/2122113980348956978",
+      "status": "practical spoiler avoidance advice during region-based launch; controls vary, filters are not complete, no Rockstar guarantee"
+    }
+  },
+  "launch_network_update_2026_11_18": {
+    "checked_at": "2026-11-18 Europe/Paris",
+    "official": [
+      {
+        "source": "https://x.com/PS_Support_US/status/2122863683881619685",
+        "published": "2026-11-18",
+        "claim": "PlayStation Support says a PS5 system software update is required before playing GTA VI and recommends downloading it before midnight Nov 19. The post does not identify a firmware version."
+      },
+      {
+        "source": "https://www.playstation.com/en-us/support/games/gta-vi-game/",
+        "claim": "Official PS5 troubleshooting: latest system software, check PSN status, region/release timing, owning account and Console Sharing/Offline Play, completed download, restore licenses, and official download/Safe Mode troubleshooting."
+      },
+      {
+        "source": "https://status.playstation.com/en-us/",
+        "checked": "2026-11-18",
+        "claim": "Live status page displayed all services up and running when checked; mutable live information, not a guarantee for later."
+      }
+    ],
+    "press": [
+      {
+        "source": "https://www.axios.com/2026/11/18/gta-6-playstation-psn-servers",
+        "published": "2026-11-18",
+        "claim": "Axios reported a temporary PSN outage and that the status page indicated recovery around 2:30 pm ET. Sony did not give a cause; no confirmed link to GTA VI or the firmware update."
+      }
+    ],
+    "advice": "Check official live PSN status first if sign-in/launch fails; follow platform troubleshooting. Do not present the outage timing as cause, do not infer offline launch behavior for a newly released digital title, and do not repeat speculative firmware/jailbreak claims.",
+    "community_and_social": "Scanned Reddit, YouTube, GitHub and X/social searches. No independent corroboration establishing the outage cause or a general workaround. User reports remain anecdotes, not verified fixes."
+  }
+}

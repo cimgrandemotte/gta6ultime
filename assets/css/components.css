@@ -1,0 +1,136 @@
+/* ═══════════════════════════════════════════════════════════════
+   GTA VI — THE ULTIMATE GUIDE · components.css
+   Navbar, recherche, cartes items, stat-bars, audio player, etc.
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ─── Navbar sticky blur ─────────────────────────────────── */
+.navbar{position:fixed;top:0;left:0;right:0;height:var(--nav-h);z-index:1000;
+  display:flex;align-items:center;
+  background:rgba(10,10,15,.55);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+  border-bottom:1px solid transparent;transition:background .35s,border-color .35s}
+.navbar.scrolled{background:rgba(10,10,15,.88);border-bottom-color:var(--line)}
+.navbar-inner{display:flex;align-items:center;gap:1.25rem;width:min(var(--container),100% - 2.5rem);margin-inline:auto}
+.logo{display:flex;align-items:baseline;gap:.5rem;text-decoration:none}
+.logo-gta{font-family:var(--font-display);font-size:1.9rem;letter-spacing:.05em;color:#fff;line-height:1}
+.logo-vi{font-family:var(--font-display);font-size:1.9rem;color:var(--primary);text-shadow:0 0 14px var(--primary-dim)}
+.logo-tag{font-family:var(--font-ui);font-size:.5rem;letter-spacing:.4em;color:var(--accent);text-transform:uppercase}
+.nav-links{display:flex;gap:1.1rem;list-style:none;margin-left:auto}
+.nav-links a{font-family:var(--font-head);font-weight:600;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-2);text-decoration:none;position:relative;padding:.25rem .1rem;transition:color .2s}
+.nav-links a::after{content:"";position:absolute;left:0;bottom:-2px;height:2px;width:0;background:linear-gradient(90deg,var(--primary),var(--secondary));transition:width .3s}
+.nav-links a:hover{color:#fff}
+.nav-links a:hover::after{width:100%}
+.nav-cta{display:inline-flex}
+.burger{display:none;margin-left:.5rem;background:none;border:1px solid var(--line);border-radius:8px;color:#fff;width:44px;height:44px;cursor:pointer}
+.mobile-panel{display:none;position:fixed;top:var(--nav-h);right:0;bottom:0;width:min(420px,92vw);z-index:999;background:rgba(12,12,20,.97);backdrop-filter:blur(20px);border-left:1px solid var(--line);padding:1.5rem;overflow-y:auto;transform:translateX(105%);transition:transform .4s var(--ease-spring)}
+.mobile-panel.open{transform:translateX(0)}
+.mobile-panel a{display:block;padding:.85rem .5rem;color:#fff;text-decoration:none;font-family:var(--font-head);font-weight:600;letter-spacing:.06em;border-bottom:1px solid var(--line)}
+.mobile-panel a small{display:block;color:var(--text-3);font-weight:400;letter-spacing:0;text-transform:none}
+
+/* ─── Recherche globale ───────────────────────────────────── */
+.search-wrap{position:relative;display:flex;align-items:center}
+.site-search{background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:999px;color:#fff;padding:.55rem 1rem .55rem 2.1rem;width:210px;font-family:var(--font-body);font-size:.85rem;transition:width .3s,border-color .3s,box-shadow .3s}
+.site-search::placeholder{color:var(--text-3)}
+.site-search:focus{outline:none;width:280px;border-color:var(--secondary);box-shadow:var(--shadow-cyan)}
+.search-icon{position:absolute;left:.75rem;color:var(--text-3);font-size:.85rem;pointer-events:none}
+.search-results{position:absolute;top:calc(100% + .6rem);left:0;right:0;min-width:320px;background:#15151F;border:1px solid var(--line);border-radius:var(--radius-sm);box-shadow:0 24px 60px rgba(0,0,0,.6);z-index:1200;overflow:hidden;display:none}
+.search-results[aria-hidden="false"]{display:block}
+.sr-item{display:flex;gap:.6rem;align-items:center;padding:.6rem .75rem;text-decoration:none;color:#fff;border-bottom:1px solid rgba(255,255,255,.05)}
+.sr-item:hover,.sr-item.active{background:rgba(255,45,120,.12)}
+.sr-tag{font-family:var(--font-mono);font-size:.55rem;color:var(--secondary);text-transform:uppercase;letter-spacing:.1em;min-width:64px}
+
+/* ─── Fil d'Ariane ───────────────────────────────────────── */
+.breadcrumbs{display:flex;gap:.5rem;flex-wrap:wrap;font-size:.78rem;color:var(--text-3);padding:calc(var(--nav-h) + 1.2rem) 0 .5rem}
+.breadcrumbs a{color:var(--text-2);text-decoration:none}
+.breadcrumbs a:hover{color:#fff}
+
+/* ─── Cartes items (armes/véhicules/persos) ──────────────── */
+.item-card{display:flex;flex-direction:column;background:var(--bg-card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;text-decoration:none;color:inherit;transform-style:preserve-3d;transition:transform .35s var(--ease-spring),border-color .35s,box-shadow .35s;will-change:transform}
+.item-card:hover{border-color:rgba(0,212,255,.45);box-shadow:0 26px 70px rgba(0,0,0,.6),var(--shadow-cyan)}
+.item-card img{width:100%;height:210px;object-fit:cover;display:block;filter:saturate(1.05)}
+.item-body{padding:1rem 1.1rem 1.2rem;display:flex;flex-direction:column;gap:.4rem;flex:1}
+.item-name{font-family:var(--font-head);font-weight:700;font-size:1.05rem;letter-spacing:.03em}
+.item-cat{font-family:var(--font-mono);font-size:.6rem;color:var(--secondary);text-transform:uppercase;letter-spacing:.18em}
+
+/* Stat bars animées */
+.stat{display:grid;grid-template-columns:88px 1fr 40px;align-items:center;gap:.6rem;font-size:.75rem;color:var(--text-2);margin:.3rem 0}
+.stat-track{height:7px;background:rgba(255,255,255,.07);border-radius:4px;overflow:hidden}
+.stat-fill{height:100%;width:0;border-radius:4px;background:linear-gradient(90deg,var(--primary),var(--secondary));box-shadow:0 0 12px var(--primary-dim);transition:width 1.3s var(--ease-spring)}
+.stat-val{font-family:var(--font-mono);font-size:.72rem;text-align:right;color:#fff}
+
+/* ─── Spoiler toggle ─────────────────────────────────────── */
+.spoiler-box{border:1px dashed rgba(255,68,68,.45);border-radius:var(--radius-sm);background:rgba(255,68,68,.05);padding:1rem 1.25rem}
+.spoiler-content{filter:blur(9px);transition:filter .4s;user-select:none}
+.spoiler-box.revealed .spoiler-content{filter:none;user-select:auto}
+
+/* ─── Copy button (cheats) ───────────────────────────────── */
+.copy-btn{font-family:var(--font-mono);font-size:.72rem;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.35);color:var(--secondary);border-radius:6px;padding:.25rem .55rem;cursor:pointer;transition:all .2s}
+.copy-btn:hover{background:rgba(0,212,255,.16)}
+.copy-btn.copied{color:var(--success);border-color:rgba(0,255,157,.4)}
+
+/* ─── Ticker breaking news ───────────────────────────────── */
+.ticker{display:flex;align-items:center;gap:0;background:#0D0D14;border-block:1px solid var(--line);overflow:hidden}
+.ticker-label{flex:0 0 auto;background:var(--primary);color:#fff;font-family:var(--font-ui);font-size:.6rem;letter-spacing:.25em;padding:.75rem 1.1rem;text-transform:uppercase}
+.ticker-viewport{overflow:hidden;white-space:nowrap;flex:1}
+.ticker-track{display:inline-flex;gap:2.5rem;padding-left:1rem;animation:marquee 38s linear infinite;font-size:.82rem;color:var(--text-2)}
+.ticker:hover .ticker-track{animation-play-state:paused}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ─── Filtres (armes / véhicules / carte) ────────────────── */
+.filter-bar{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.5rem}
+.filter-btn{font-family:var(--font-head);font-weight:600;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-2);background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:999px;padding:.5rem 1.05rem;cursor:pointer;transition:all .25s}
+.filter-btn:hover{color:#fff;border-color:var(--text-2)}
+.filter-btn.active{color:#0A0A0F;background:var(--secondary);border-color:var(--secondary);box-shadow:var(--shadow-cyan)}
+
+/* ─── Audio player flottant ──────────────────────────────── */
+.audio-fab{position:fixed;left:1.1rem;bottom:1.1rem;z-index:1100;display:flex;flex-direction:column;gap:.5rem}
+.audio-fab-toggle{width:52px;height:52px;border-radius:50%;border:1px solid rgba(0,212,255,.4);background:rgba(12,12,20,.9);backdrop-filter:blur(10px);color:var(--secondary);font-size:1.15rem;cursor:pointer;box-shadow:var(--shadow-cyan)}
+.audio-panel{display:none;background:rgba(12,12,20,.96);border:1px solid var(--line);border-radius:var(--radius);backdrop-filter:blur(14px);padding:.75rem;width:280px;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.audio-fab.open .audio-panel{display:block}
+.audio-panel .tracks{max-height:min(55vh,390px);overflow-y:auto;overscroll-behavior:contain}
+.audio-panel h4{font-family:var(--font-ui);font-size:.58rem;letter-spacing:.3em;color:var(--text-3);text-transform:uppercase;margin:.1rem .2rem .5rem}
+.track{display:flex;align-items:center;gap:.5rem;width:100%;background:transparent;border:0;color:var(--text-2);font-size:.8rem;text-align:left;padding:.42rem .5rem;border-radius:6px;cursor:pointer}
+.track:hover{background:rgba(255,255,255,.06);color:#fff}
+.track.playing{color:var(--secondary)}
+.audio-controls{display:flex;gap:.4rem;align-items:center;margin-top:.5rem;padding:.35rem .2rem 0;border-top:1px solid var(--line)}
+.audio-controls button{background:rgba(255,255,255,.05);border:1px solid var(--line);color:#fff;width:38px;height:38px;border-radius:8px;cursor:pointer}
+
+/* ─── Back to top avec anneau de progression ─────────────── */
+.back-top{position:fixed;right:1.1rem;bottom:1.1rem;z-index:1100;width:54px;height:54px;border-radius:50%;background:rgba(12,12,20,.9);border:1px solid var(--line);cursor:pointer;display:grid;place-items:center;opacity:0;pointer-events:none;transition:opacity .3s}
+.back-top.visible{opacity:1;pointer-events:auto}
+.back-top svg{transform:rotate(-90deg)}
+.back-top circle{fill:none;stroke-width:3}
+.back-top .ring-bg{stroke:rgba(255,255,255,.1)}
+.back-top .ring-fg{stroke:var(--primary);stroke-linecap:round;stroke-dasharray:132;stroke-dashoffset:132;transition:stroke-dashoffset .1s linear}
+.back-top span{position:absolute;font-size:.9rem;color:#fff}
+
+/* ─── Cookie banner ──────────────────────────────────────── */
+.cookie{position:fixed;bottom:0;left:0;right:0;z-index:1200;background:rgba(10,10,15,.96);backdrop-filter:blur(12px);border-top:1px solid var(--line);padding:.85rem 1.25rem;display:none;align-items:center;gap:1rem;justify-content:center;flex-wrap:wrap;font-size:.82rem;color:var(--text-2)}
+.cookie.visible{display:flex}
+
+/* ─── Tables comparatives (éditions, armes…) ─────────────── */
+.data-table{width:100%;border-collapse:collapse;font-size:.88rem;overflow:hidden;border-radius:var(--radius);border:1px solid var(--line)}
+.data-table th{font-family:var(--font-ui);font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);text-align:left;padding:.8rem 1rem;background:#14141F;border-bottom:1px solid var(--line)}
+.data-table td{padding:.7rem 1rem;border-bottom:1px solid rgba(255,255,255,.06);color:var(--text-2)}
+.data-table tr:last-child td{border-bottom:0}
+.data-table tr:hover td{background:rgba(255,255,255,.03)}
+
+/* ─── Quiz ───────────────────────────────────────────────── */
+.quiz-option{display:block;width:100%;text-align:left;background:var(--bg-card);border:1px solid var(--line);border-radius:var(--radius-sm);color:#fff;padding:.85rem 1rem;margin:.4rem 0;cursor:pointer;font-size:.95rem;transition:all .2s}
+.quiz-option:hover{border-color:var(--secondary)}
+.quiz-option.correct{border-color:var(--success);background:rgba(0,255,157,.1)}
+.quiz-option.wrong{border-color:var(--danger);background:rgba(255,68,68,.1)}
+
+/* ─── Leaflet dark ───────────────────────────────────────── */
+.leaflet-container{background:#0A0A0F;border-radius:var(--radius);border:1px solid var(--line)}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#15151F;color:#fff}
+.leaflet-popup-content-wrapper{border:1px solid rgba(0,212,255,.3)}
+
+@media(max-width:1024px){
+  .nav-links{display:none}
+  .nav-cta{display:none}
+  .burger{display:grid;place-items:center}
+  .mobile-panel{display:block}
+  .site-search{width:150px}
+  .site-search:focus{width:180px}
+}
+@media(max-width:640px){.search-wrap{display:none}}

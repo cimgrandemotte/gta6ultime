@@ -1,0 +1,11 @@
+{
+  "name": "GTA VI — The Ultimate Guide",
+  "short_name": "GTA VI Guide",
+  "description": "Le guide ultime non officiel de GTA VI : Leonida, Jason & Lucia, armes, véhicules, astuces.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0A0A0F",
+  "theme_color": "#FF2D78",
+  "lang": "fr"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "gta6-ultimate-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GTA VI — The Ultimate Guide · Fan guide non officiel (FR/EN). Site statique.",
+  "scripts": {
+    "dev": "python3 -m http.server 8080 --bind 0.0.0.0",
+    "start": "python3 -m http.server 8080 --bind 0.0.0.0",
+    "serve": "npx --yes serve -l 8080 .",
+    "audit": "python3 scripts/prepublish_audit.py",
+    "check:js": "for f in assets/js/*.js; do node --check \"$f\" || exit 1; done"
+  },
+  "keywords": [
+    "GTA 6",
+    "GTA VI",
+    "guide",
+    "Leonida",
+    "Vice City",
+    "Rockstar Games"
+  ],
+  "license": "UNLICENSED"
+}
